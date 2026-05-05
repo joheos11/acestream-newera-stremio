@@ -220,8 +220,17 @@ def get_events(force=False) -> list[dict]:
 # WEB SERVER (Flask, compatible con Vercel)
 # ============================================================================
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)  # Permitir peticiones desde cualquier origen (necesario para Stremio PC)
+
+@app.after_request
+def add_cors_headers(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
+    return response
 
 _MANIFEST = None
 
