@@ -142,7 +142,7 @@ def event_to_meta(event: dict) -> dict:
 
     return {
         "id": sid,
-        "type": "movie",
+        "type": "tv",
         "name": f"{event['match_name']} ({event['competition']})",
         "poster": "https://i.imgur.com/AcestreamPoster.png",
         "posterShape": "landscape",
@@ -164,7 +164,7 @@ def channel_to_meta(channel: dict) -> dict:
 
     return {
         "id": sid,
-        "type": "channel",
+        "type": "tv",
         "name": channel["name"],
         "poster": "https://i.imgur.com/ChannelIcon.png",
         "posterShape": "square",
@@ -288,7 +288,7 @@ def catalog(type_: str, catalog_id: str):
     return jsonify({"metas": metas})
 
 
-@app.route("/stream/<type_>/<stremio_id>.json")
+@app.route("/stream/tv/<stremio_id>.json")
 def stream(type_: str, stremio_id: str):
     # Intentar como evento
     events = get_events()

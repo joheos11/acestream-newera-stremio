@@ -6,10 +6,10 @@
   "icon": "https://i.imgur.com/AcestreamIcon.png",
   "logo": "https://i.imgur.com/AcestreamLogo.png",
   "background": "https://i.imgur.com/AcestreamBg.png",
-  "types": ["movie", "series", "channel"],
+  "types": ["tv"],
   "catalogs": [
     {
-      "type": "movie",
+      "type": "tv",
       "id": "acestream-futbol",
       "name": "⚽ Fútbol - NEW ERA",
       "extra": [
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "type": "movie",
+      "type": "tv",
       "id": "acestream-eventos",
       "name": "📺 Agenda Deportiva - NEW ERA",
       "extra": [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "type": "channel",
+      "type": "tv",
       "id": "acestream-canales",
       "name": "📡 Canales - NEW ERA (330+ canales)",
       "extra": [
@@ -43,6 +43,10 @@
   "behaviorHints": {
     "P2P": false,
     "configurable": false,
-    "additionalSourcesRequired": false
-  }
-}
+    "additionalSourcesRequired": false,
+    "bingeWatchingMode": false,
+    "filterable": true,
+    "hasAnonymousAccess": true,
+    "hasCaptions": false
+  },
+  "shortConfiguration": false
