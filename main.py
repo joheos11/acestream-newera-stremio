@@ -289,7 +289,7 @@ def catalog(type_: str, catalog_id: str):
 
 
 @app.route("/stream/tv/<stremio_id>.json")
-def stream(type_: str, stremio_id: str):
+def stream(stremio_id: str):
     # Intentar como evento
     events = get_events()
     for e in events:
