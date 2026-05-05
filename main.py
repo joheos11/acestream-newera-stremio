@@ -37,23 +37,12 @@ def acestream_to_stremio_id(acestream_id: str) -> str:
 
 
 def make_meta(channel: dict) -> dict:
-    """Convierte canal → meta de Stremio."""
+    """Convierte canal → meta de Stremio (versión mínima)."""
     sid = acestream_to_stremio_id(channel["acestream_id"])
-    genre = channel.get("genre", "Otros")
-    source = channel.get("source", "NEW ERA")
-
-    # Logo por defecto — genérico
-    poster = "https://i.imgur.com/AcestreamPoster.png"
-
     return {
         "id": sid,
         "type": "tv",
         "name": channel["name"],
-        "poster": poster,
-        "posterShape": "square",
-        "genres": [genre, "TV"],
-        "description": f"📡 {channel['name']} | Fuente: {source} | {genre}",
-        "runtime": "LIVE",
     }
 
 
@@ -115,16 +104,21 @@ def index():
 def catalog_canales():
     channels = get_channels()
 
-    # Filtros
+    # Solo búsqueda
     search = request.args.get("search", "").lower()
-    genre = request.args.get("genre", "")
-
     if search:
         channels = [c for c in channels if search in c["name"].lower()]
-    if genre:
-        channels = [c for c in channels if c.get("genre") == genre]
 
-    metas = [make_meta(c) for c in channels[:500]]
+    # Soportar paginación de Stremio
+    try:
+        limit = int(request.args.get("limit", 200))
+        offset = int(request.args.get("offset", 0))
+    except ValueError:
+        limit, offset = 200, 0
+
+    channels = channels[offset:offset + limit]
+
+    metas = [make_meta(c) for c in channels]
     return jsonify({"metas": metas})
 
 

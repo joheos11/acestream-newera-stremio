@@ -13,14 +13,7 @@
       "id": "canales",
       "name": "📡 Canales - NEW ERA (241)",
       "extra": [
-        {"name": "search", "isRequired": false},
-        {
-          "name": "genre",
-          "options": [
-            "Fútbol", "DAZN", "Movistar+", "EuroSport", "beIN",
-            "Internacional", "Motor", "Generalista", "Combate", "Otros"
-          ]
-        }
+        {"name": "search", "isRequired": false}
       ]
     }
   ],
