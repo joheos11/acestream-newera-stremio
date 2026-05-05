@@ -1,0 +1,47 @@
+{
+  "id": "com.acestreamnewera.addon",
+  "version": "1.0.0",
+  "name": "ACEStream NEW ERA",
+  "description": "Agenda deportiva y eventos en vivo via Acestream - NEW ERA",
+  "icon": "https://k2k4r8lm8tkmuxbc8lkmq1in3v0oya1p6pe9o5bu0hu30br5ko08k2gb.ipns.dweb.link/icon.png",
+  "logo": "https://k2k4r8lm8tkmuxbc8lkmq1in3v0oya1p6pe9o5bu0hu30br5ko08k2gb.ipns.dweb.link/icon.png",
+  "background": "https://k2k4r8lm8tkmuxbc8lkmq1in3v0oya1p6pe9o5bu0hu30br5ko08k2gb.ipns.dweb.link/icon.png",
+  "types": ["movie", "series", "channel"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "acestream-futbol",
+      "name": "⚽ Fútbol - NEW ERA",
+      "extra": [
+        {"name": "search", "isRequired": false},
+        {"name": "genre", "options": ["futbol", "baloncesto", "tenis", "f1", "motogp", "ufs", "otros"]}
+      ]
+    },
+    {
+      "type": "series",
+      "id": "acestream-eventos",
+      "name": "📺 Agenda Deportiva - NEW ERA",
+      "extra": [
+        {"name": "search", "isRequired": false}
+      ]
+    },
+    {
+      "type": "channel",
+      "id": "acestream-canales",
+      "name": "📡 Canales - NEW ERA",
+      "extra": [
+        {"name": "search", "isRequired": false}
+      ]
+    }
+  ],
+  "resources": [
+    "catalog",
+    "stream"
+  ],
+  "idPrefixes": ["acestream_", "newera_", "senal_"],
+  "behaviorHints": {
+    "P2P": false,
+    "configurable": false,
+    "additionalSourcesRequired": false
+  }
+}
