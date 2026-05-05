@@ -1,65 +1,27 @@
 """
-ACEStream NEW ERA — Stremio Addon (simplificado)
-Un catálogo plano con 241 canales únicos + streams Acestream.
+ACEStream NEW ERA — Stremio Addon
+Serve datos estáticos para máxima compatibilidad con Vercel serverless.
 """
 
 import json
-import hashlib
 import os
 
-# ============================================================================
-# CANALES ÚNICOS (cargados desde channels.json embebido)
-# ============================================================================
-_CHANNELS = None
+# Rutas absolutas a los datos embebidos
+_BASE = os.path.dirname(os.path.abspath(__file__))
 
-def get_channels():
-    global _CHANNELS
-    if _CHANNELS is None:
-        path = os.path.join(os.path.dirname(__file__), "channels.json")
-        with open(path, "r", encoding="utf-8") as f:
-            raw = json.load(f)
-        # Deduplicar por (name, genre) — primer occurrence wins
-        seen = {}
-        unique = []
-        for ch in raw.get("channels", []):
-            key = (ch["name"], ch["genre"])
-            if key not in seen:
-                seen[key] = True
-                unique.append(ch)
-        _CHANNELS = unique
-    return _CHANNELS
+def _load(path: str):
+    with open(os.path.join(_BASE, path), "r", encoding="utf-8") as f:
+        return json.load(f)
 
-
-def acestream_to_stremio_id(acestream_id: str) -> str:
-    """Convierte un acestream ID → ID de Stremio (estables, sin hash del nombre)."""
-    h = hashlib.md5(acestream_id.encode()).hexdigest()[:12]
-    return f"acestream_{h}"
-
-
-def make_meta(channel: dict) -> dict:
-    """Convierte canal → meta de Stremio (versión mínima)."""
-    sid = acestream_to_stremio_id(channel["acestream_id"])
-    return {
-        "id": sid,
-        "type": "tv",
-        "name": channel["name"],
-    }
-
-
-def make_streams(channel: dict) -> list[dict]:
-    """Genera la respuesta de streams para un canal."""
-    ace_id = channel["acestream_id"]
-    return [{
-        "title": f"🔴 {channel['name']}",
-        "url": f"acestream://{ace_id}",
-        "behaviorHints": {"notWebReady": True},
-    }]
+_MANIFEST = _load("manifest.json")
+_CATALOG = _load("catalog.json")
+_STREAMS = _load("streams.json")
 
 
 # ============================================================================
-# FLASK SERVER
+# FLASK (mínimo, solo sirve archivos estáticos)
 # ============================================================================
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, send_from_directory
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -74,65 +36,61 @@ def cors_headers(response):
     return response
 
 
-_MANIFEST = None
-
-
-def load_manifest():
-    global _MANIFEST
-    if _MANIFEST is None:
-        with open("manifest.json", "r", encoding="utf-8") as f:
-            _MANIFEST = json.load(f)
-
-
 @app.route("/manifest.json")
-def manifest():
-    load_manifest()
+def serve_manifest():
     return jsonify(_MANIFEST)
+
+
+@app.route("/catalog.json")
+def serve_catalog():
+    """Catálogo plano con los 241 canales."""
+    return jsonify(_CATALOG)
+
+
+@app.route("/catalog/tv/canales")
+def serve_catalog_tv():
+    """Ruta que espera Stremio para el catálogo de tv."""
+    return jsonify(_CATALOG)
+
+
+@app.route("/meta/tv/<stremio_id>.json")
+def serve_meta(stremio_id: str):
+    """Info de un canal individual (la necesita Stremio para la pantalla de detalle)."""
+    ch = _STREAMS.get(stremio_id)
+    if ch:
+        return jsonify({
+            "meta": {
+                "id": stremio_id,
+                "type": "tv",
+                "name": ch["name"],
+            }
+        })
+    return jsonify({"meta": None})
+
+
+@app.route("/stream/tv/<stremio_id>.json")
+def serve_stream(stremio_id: str):
+    """Dado un ID de Stremio, devuelve el stream acestream."""
+    ch = _STREAMS.get(stremio_id)
+    if ch:
+        ace_id = ch["acestream_id"]
+        return jsonify({
+            "streams": [{
+                "title": f"🔴 {ch['name']}",
+                "url": f"acestream://{ace_id}",
+                "behaviorHints": {"notWebReady": True},
+            }]
+        })
+    return jsonify({"streams": []})
 
 
 @app.route("/")
 def index():
-    chs = get_channels()
     return jsonify({
         "name": "ACEStream NEW ERA",
-        "channels": len(chs),
+        "channels": len(_CATALOG.get("metas", [])),
         "manifest": "/manifest.json",
     })
-
-
-@app.route("/catalog/tv/canales")
-def catalog_canales():
-    channels = get_channels()
-
-    # Solo búsqueda
-    search = request.args.get("search", "").lower()
-    if search:
-        channels = [c for c in channels if search in c["name"].lower()]
-
-    # Soportar paginación de Stremio
-    try:
-        limit = int(request.args.get("limit", 200))
-        offset = int(request.args.get("offset", 0))
-    except ValueError:
-        limit, offset = 200, 0
-
-    channels = channels[offset:offset + limit]
-
-    metas = [make_meta(c) for c in channels]
-    return jsonify({"metas": metas})
-
-
-@app.route("/stream/tv/<stremio_id>.json")
-def stream_tv(stremio_id: str):
-    """Dado un ID de Stremio, devuelve el stream acestream."""
-    channels = get_channels()
-
-    for ch in channels:
-        sid = acestream_to_stremio_id(ch["acestream_id"])
-        if sid == stremio_id:
-            return jsonify({"streams": make_streams(ch)})
-
-    return jsonify({"streams": []})
 
 
 # ============================================================================
@@ -143,6 +101,5 @@ def handler(event, context):
 
 
 if __name__ == "__main__":
-    chs = get_channels()
-    print(f"🚀 ACEStream NEW ERA → {len(chs)} canales únicos")
+    print(f"🚀 ACEStream NEW ERA → {len(_CATALOG.get('metas', []))} canales")
     app.run(host="0.0.0.0", port=7000, debug=False)
