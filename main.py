@@ -19,6 +19,7 @@ import json
 import re
 import time
 import hashlib
+import os
 from datetime import datetime
 from typing import Optional
 
@@ -262,7 +263,6 @@ def handler(event, context):
 
 
 if __name__ == "__main__":
-    import os
     port = int(os.environ.get("PORT", 7000))
     print(f"🚀 ACEStream NEW ERA Stremio Addon → http://0.0.0.0:{port}")
     print(f"   Manifest: http://0.0.0.0:{port}/manifest.json")
