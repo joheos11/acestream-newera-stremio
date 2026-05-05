@@ -1,18 +1,8 @@
 """
 Stremio Addon para ACEStream NEW ERA
 ======================================
-Scrapes la web y sirve eventos + streams de Acestream para Stremio.
-
-Uso local:
-    pip install flask
-    python main.py
-
-Deploy en Vercel (serverless):
-    $ vercel
-
-Deploy en Railway/Render:
-    $ pip install -r requirements.txt
-    $ python main.py
+Scrapes la web de NEW ERA y sirve eventos + canales de Acestream para Stremio.
+Incluye: Agenda de eventos en vivo + Lista de canales permanente.
 """
 
 import json
@@ -28,6 +18,24 @@ from typing import Optional
 # ============================================================================
 WEB_URL = "https://k2k4r8lm8tkmuxbc8lkmq1in3v0oya1p6pe9o5bu0hu30br5ko08k2gb.ipns.dweb.link/"
 CACHE_TTL = 300  # 5 min
+
+# ============================================================================
+# CANALES (embebidos para evitar scraping extra)
+# ============================================================================
+_CHANNELS_DATA: Optional[dict] = None
+
+
+def load_channels() -> dict:
+    global _CHANNELS_DATA
+    if _CHANNELS_DATA is None:
+        path = os.path.join(os.path.dirname(__file__), "channels.json")
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                _CHANNELS_DATA = json.load(f)
+        else:
+            _CHANNELS_DATA = {"channels": [], "genres": {}, "count": 0}
+    return _CHANNELS_DATA
+
 
 # ============================================================================
 # SCRAPING
@@ -75,8 +83,6 @@ def extract_events(html: str) -> list[dict]:
 
         time_str = parts[0]
         match_raw = parts[1]
-
-        # Competencia
         competition = comp_map.get(event_id, "")
 
         # Acestream IDs
@@ -88,8 +94,6 @@ def extract_events(html: str) -> list[dict]:
             continue
 
         genre = guess_genre(competition)
-
-        # Limpiar nombre
         match_name = re.sub(r'<[^>]+>', '', match_raw).strip()
         match_name = re.sub(r'[-_]+', ' ', match_name)
 
@@ -153,12 +157,37 @@ def event_to_meta(event: dict) -> dict:
     }
 
 
-def make_streams(event: dict) -> list[dict]:
+def channel_to_meta(channel: dict) -> dict:
+    """Convierte canal → item de catálogo Stremio (type=channel)."""
+    cid = hashlib.md5(channel["acestream_id"].encode()).hexdigest()[:12]
+    sid = f"senal_{cid}"
+
+    return {
+        "id": sid,
+        "type": "channel",
+        "name": channel["name"],
+        "poster": "https://i.imgur.com/ChannelIcon.png",
+        "posterShape": "square",
+        "genres": [channel["genre"], "Canales"],
+        "description": (
+            f"📡 {channel['name']}\n"
+            f"Fuente: {channel['source']}\n"
+            f"🔴 ID: {channel['acestream_id']}"
+        ),
+        "runtime": "LIVE",
+        "infoLinks": [],
+    }
+
+
+def make_streams(event_or_channel) -> list[dict]:
     """Genera streams Stremio desde acestream IDs."""
+    ids = event_or_channel.get("acestream_ids", [event_or_channel.get("acestream_id", "")])
+    if not ids or not ids[0]:
+        return []
     streams = []
-    for i, ace_id in enumerate(event["acestream_ids"]):
+    for i, ace_id in enumerate(ids):
         streams.append({
-            "title": f"Acestream Opción {i+1}/{len(event['acestream_ids'])}",
+            "title": f"Acestream Opción {i+1}/{len(ids)}",
             "url": f"acestream://{ace_id}",
             "behaviorHints": {"notWebReady": True},
         })
@@ -175,10 +204,15 @@ _cache_at: float = 0
 def get_events(force=False) -> list[dict]:
     global _cache, _cache_at
     if force or _cache is None or (time.time() - _cache_at) > CACHE_TTL:
-        html = fetch_html(WEB_URL)
-        _cache = extract_events(html)
-        _cache_at = time.time()
-        print(f"[{datetime.now().strftime('%H:%M:%S')}] Eventos cacheados: {len(_cache)}")
+        try:
+            html = fetch_html(WEB_URL)
+            _cache = extract_events(html)
+            _cache_at = time.time()
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] Eventos cacheados: {len(_cache)}")
+        except Exception as e:
+            print(f"Error fetching events: {e}")
+            if _cache is None:
+                _cache = []
     return _cache
 
 
@@ -204,10 +238,16 @@ def index():
     return jsonify({
         "name": "ACEStream NEW ERA - Stremio Addon",
         "version": "1.0.0",
-        "description": "Eventos deportivos via Acestream - NEW ERA",
+        "description": "Eventos deportivos + Canales via Acestream - NEW ERA",
         "manifest": "/manifest.json",
-        "catalogs": "/catalog/movie/acestream-futbol",
-        "live_events": "/events.json",
+        "catalogs": [
+            "/catalog/movie/acestream-futbol",
+            "/catalog/channel/acestream-canales",
+        ],
+        "stats": {
+            "eventos": len(get_events()),
+            "canales": load_channels().get("count", 0),
+        }
     })
 
 
@@ -222,8 +262,21 @@ def catalog(type_: str, catalog_id: str):
     search_q = request.args.get("search", "").lower()
     genre_q = request.args.get("genre", "")
 
-    events = get_events()
+    # Canales
+    if catalog_id == "acestream-canales":
+        ch_data = load_channels()
+        channels = ch_data.get("channels", [])
 
+        if search_q:
+            channels = [c for c in channels if search_q in c["name"].lower()]
+        if genre_q:
+            channels = [c for c in channels if c["genre"] == genre_q]
+
+        metas = [channel_to_meta(c) for c in channels[:500]]
+        return jsonify({"metas": metas})
+
+    # Eventos por defecto (movie type)
+    events = get_events()
     if search_q:
         events = [e for e in events
                   if search_q in e["match_name"].lower()
@@ -237,13 +290,20 @@ def catalog(type_: str, catalog_id: str):
 
 @app.route("/stream/<type_>/<stremio_id>.json")
 def stream(type_: str, stremio_id: str):
+    # Intentar como evento
     events = get_events()
-    target = stremio_id.replace(f"acestream_", "")
-
     for e in events:
         safe = hashlib.md5(e["event_id"].encode()).hexdigest()[:12]
-        if safe == target:
+        if f"acestream_{safe}" == stremio_id:
             streams = make_streams(e)
+            return jsonify({"streams": streams})
+
+    # Intentar como canal
+    ch_data = load_channels()
+    for c in ch_data.get("channels", []):
+        safe = hashlib.md5(c["acestream_id"].encode()).hexdigest()[:12]
+        if f"senal_{safe}" == stremio_id:
+            streams = make_streams(c)
             return jsonify({"streams": streams})
 
     return jsonify({"streams": []})
@@ -251,8 +311,14 @@ def stream(type_: str, stremio_id: str):
 
 @app.route("/events.json")
 def events_raw():
-    """Endpoint raw con todos los eventos (útil para Kodi)."""
+    """Endpoint raw con todos los eventos."""
     return jsonify({"events": get_events(), "count": len(get_events())})
+
+
+@app.route("/channels.json")
+def channels_raw():
+    """Endpoint raw con todos los canales."""
+    return jsonify(load_channels())
 
 
 # ============================================================================
@@ -264,7 +330,9 @@ def handler(event, context):
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 7000))
+    ch = load_channels()
     print(f"🚀 ACEStream NEW ERA Stremio Addon → http://0.0.0.0:{port}")
+    print(f"   Eventos: {len(get_events())}")
+    print(f"   Canales: {ch.get('count', 0)}")
     print(f"   Manifest: http://0.0.0.0:{port}/manifest.json")
-    print(f"   Catálogo: http://0.0.0.0:{port}/catalog/movie/acestream-futbol")
     app.run(host="0.0.0.0", port=port, debug=False)

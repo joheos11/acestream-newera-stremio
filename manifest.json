@@ -1,11 +1,11 @@
 {
   "id": "com.acestreamnewera.addon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "ACEStream NEW ERA",
-  "description": "Agenda deportiva y eventos en vivo via Acestream - NEW ERA",
-  "icon": "https://k2k4r8lm8tkmuxbc8lkmq1in3v0oya1p6pe9o5bu0hu30br5ko08k2gb.ipns.dweb.link/icon.png",
-  "logo": "https://k2k4r8lm8tkmuxbc8lkmq1in3v0oya1p6pe9o5bu0hu30br5ko08k2gb.ipns.dweb.link/icon.png",
-  "background": "https://k2k4r8lm8tkmuxbc8lkmq1in3v0oya1p6pe9o5bu0hu30br5ko08k2gb.ipns.dweb.link/icon.png",
+  "description": "Agenda deportiva y canales via Acestream - NEW ERA. Incluye eventos en vivo y lista permanente de canales.",
+  "icon": "https://i.imgur.com/AcestreamIcon.png",
+  "logo": "https://i.imgur.com/AcestreamLogo.png",
+  "background": "https://i.imgur.com/AcestreamBg.png",
   "types": ["movie", "series", "channel"],
   "catalogs": [
     {
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "type": "series",
+      "type": "movie",
       "id": "acestream-eventos",
       "name": "📺 Agenda Deportiva - NEW ERA",
       "extra": [
@@ -28,9 +28,10 @@
     {
       "type": "channel",
       "id": "acestream-canales",
-      "name": "📡 Canales - NEW ERA",
+      "name": "📡 Canales - NEW ERA (330+ canales)",
       "extra": [
-        {"name": "search", "isRequired": false}
+        {"name": "search", "isRequired": false},
+        {"name": "genre", "options": ["DAZN", "Movistar+", "EuroSport", "Fútbol", "Motor", "Internacional", "beIN", "Combate", "Generalista", "Otros"]}
       ]
     }
   ],
@@ -38,7 +39,7 @@
     "catalog",
     "stream"
   ],
-  "idPrefixes": ["acestream_", "newera_", "senal_"],
+  "idPrefixes": ["acestream_", "senal_"],
   "behaviorHints": {
     "P2P": false,
     "configurable": false,
