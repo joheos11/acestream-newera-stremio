@@ -1,8 +1,8 @@
 {
   "id": "com.acestreamnewera.addon",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "name": "ACEStream NEW ERA",
-  "description": "Agenda deportiva y canales via Acestream - NEW ERA. Incluye eventos en vivo y lista permanente de canales.",
+  "description": "241 canales únicos via Acestream - NEW ERA. Fútbol, DAZN, Movistar+, Internacional y más.",
   "icon": "https://i.imgur.com/AcestreamIcon.png",
   "logo": "https://i.imgur.com/AcestreamLogo.png",
   "background": "https://i.imgur.com/AcestreamBg.png",
@@ -10,28 +10,17 @@
   "catalogs": [
     {
       "type": "tv",
-      "id": "acestream-futbol",
-      "name": "⚽ Fútbol - NEW ERA",
+      "id": "canales",
+      "name": "📡 Canales - NEW ERA (241)",
       "extra": [
         {"name": "search", "isRequired": false},
-        {"name": "genre", "options": ["futbol", "baloncesto", "tenis", "f1", "motogp", "ufs", "otros"]}
-      ]
-    },
-    {
-      "type": "tv",
-      "id": "acestream-eventos",
-      "name": "📺 Agenda Deportiva - NEW ERA",
-      "extra": [
-        {"name": "search", "isRequired": false}
-      ]
-    },
-    {
-      "type": "tv",
-      "id": "acestream-canales",
-      "name": "📡 Canales - NEW ERA (330+ canales)",
-      "extra": [
-        {"name": "search", "isRequired": false},
-        {"name": "genre", "options": ["DAZN", "Movistar+", "EuroSport", "Fútbol", "Motor", "Internacional", "beIN", "Combate", "Generalista", "Otros"]}
+        {
+          "name": "genre",
+          "options": [
+            "Fútbol", "DAZN", "Movistar+", "EuroSport", "beIN",
+            "Internacional", "Motor", "Generalista", "Combate", "Otros"
+          ]
+        }
       ]
     }
   ],
@@ -39,7 +28,7 @@
     "catalog",
     "stream"
   ],
-  "idPrefixes": ["acestream_", "senal_"],
+  "idPrefixes": ["acestream_"],
   "behaviorHints": {
     "P2P": false,
     "configurable": false,
