@@ -21,7 +21,7 @@
     "catalog",
     "stream"
   ],
-  "idPrefixes": ["acestream_"],
+  "idPrefixes": ["ch"],
   "behaviorHints": {
     "P2P": false,
     "configurable": false,
@@ -30,6 +30,5 @@
     "filterable": true,
     "hasAnonymousAccess": true,
     "hasCaptions": false
-  },
-  "shortConfiguration": false
+  }
 }

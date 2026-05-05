@@ -70,14 +70,12 @@ def serve_meta(stremio_id: str):
 
 @app.route("/stream/tv/<stremio_id>.json")
 def serve_stream(stremio_id: str):
-    """Dado un ID de Stremio, devuelve el stream acestream."""
     ch = _STREAMS.get(stremio_id)
     if ch:
-        ace_id = ch["acestream_id"]
         return jsonify({
             "streams": [{
                 "title": f"🔴 {ch['name']}",
-                "url": f"acestream://{ace_id}",
+                "url": f"acestream://{ch['acestream_id']}",
                 "behaviorHints": {"notWebReady": True},
             }]
         })
