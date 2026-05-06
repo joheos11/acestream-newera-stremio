@@ -86,7 +86,7 @@ def serve_stream(stremio_id: str):
         return jsonify({
             "streams": [{
                 "title": f"🔴 {ch.get('name', stremio_id)}",
-                "url": f"http://127.0.0.1:6878/ace/manifest.m3u8?id={ch['acestream_id']}",
+                "url": f"http://127.0.0.1:6878/ace/getstream?id={ch['acestream_id']}&format=.mp4",
                 "behaviorHints": {
                     "notWebReady": True,
                     "hasChromecastSupport": False,
