@@ -48,6 +48,7 @@ def serve_catalog():
 
 
 @app.route("/catalog/tv/canales")
+@app.route("/catalog/tv/canales.json")
 def serve_catalog_tv():
     """Ruta que espera Stremio para el catálogo de tv."""
     return jsonify(_CATALOG)
