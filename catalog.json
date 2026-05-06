@@ -1,1 +1,1209 @@
-{"metas": [{"id": "ch1", "type": "tv", "name": "Canal 1 (1RFEF) (SOLO EVENTOS)"}, {"id": "ch2", "type": "tv", "name": "Canal 2 (1RFEF) (SOLO EVENTOS)"}, {"id": "ch3", "type": "tv", "name": "PRIMERA FEDERACIÓN FHD"}, {"id": "ch4", "type": "tv", "name": "DAZN 1 FHD"}, {"id": "ch5", "type": "tv", "name": "DAZN 1"}, {"id": "ch6", "type": "tv", "name": "DAZN 1 BAR FHD"}, {"id": "ch7", "type": "tv", "name": "DAZN 2 FHD"}, {"id": "ch8", "type": "tv", "name": "DAZN 2"}, {"id": "ch9", "type": "tv", "name": "DAZN 2 BAR FHD"}, {"id": "ch10", "type": "tv", "name": "DAZN 3"}, {"id": "ch11", "type": "tv", "name": "DAZN 4 FHD"}, {"id": "ch12", "type": "tv", "name": "DAZN 4"}, {"id": "ch13", "type": "tv", "name": "GOL PLAY FHD"}, {"id": "ch14", "type": "tv", "name": "SKY SPORTS ARENA"}, {"id": "ch15", "type": "tv", "name": "SKY SPORTS CRICKET"}, {"id": "ch16", "type": "tv", "name": "SKY SPORTS MAIN EVENT"}, {"id": "ch17", "type": "tv", "name": "TELEDEPORTE FHD"}, {"id": "ch18", "type": "tv", "name": "TELEDEPORTE"}, {"id": "ch19", "type": "tv", "name": "EUROSPORT 1 FHD"}, {"id": "ch20", "type": "tv", "name": "EUROSPORT 1"}, {"id": "ch21", "type": "tv", "name": "EUROSPORT 1 HD"}, {"id": "ch22", "type": "tv", "name": "EUROSPORT 2"}, {"id": "ch23", "type": "tv", "name": "EUROSPORT 2 HD"}, {"id": "ch24", "type": "tv", "name": "DAZN EVENTOS 2"}, {"id": "ch25", "type": "tv", "name": "DAZN F1 4K"}, {"id": "ch26", "type": "tv", "name": "DAZN F1 FHD"}, {"id": "ch27", "type": "tv", "name": "DAZN F1 SD"}, {"id": "ch28", "type": "tv", "name": "DAZN F1"}, {"id": "ch29", "type": "tv", "name": "DAZN F1 HD"}, {"id": "ch30", "type": "tv", "name": "BEIN SPORTS 1"}, {"id": "ch31", "type": "tv", "name": "beIN SPORTS HD 1 (TR)"}, {"id": "ch32", "type": "tv", "name": "BEIN SPORTS 2"}, {"id": "ch33", "type": "tv", "name": "BEIN SPORTS 3"}, {"id": "ch34", "type": "tv", "name": "BEIN SPORTS Ñ"}, {"id": "ch35", "type": "tv", "name": "BT Sport 1 [UK]"}, {"id": "ch36", "type": "tv", "name": "BT Sport 2 [UK]"}, {"id": "ch37", "type": "tv", "name": "BT Sport 3 [UK]"}, {"id": "ch38", "type": "tv", "name": "ELEVEN DAZN 1"}, {"id": "ch39", "type": "tv", "name": "ELEVEN DAZN 1 HD"}, {"id": "ch40", "type": "tv", "name": "ELEVEN DAZN 2"}, {"id": "ch41", "type": "tv", "name": "ELEVEN DAZN 2 HD"}, {"id": "ch42", "type": "tv", "name": "ELEVEN DAZN 3"}, {"id": "ch43", "type": "tv", "name": "ELEVEN DAZN 3 HD"}, {"id": "ch44", "type": "tv", "name": "ELEVEN DAZN 4"}, {"id": "ch45", "type": "tv", "name": "ELEVEN DAZN 4 HD"}, {"id": "ch46", "type": "tv", "name": "ELEVEN DAZN 5"}, {"id": "ch47", "type": "tv", "name": "ELEVEN DAZN 6"}, {"id": "ch48", "type": "tv", "name": "ESPN2 [US]"}, {"id": "ch49", "type": "tv", "name": "ESPN 2 [BE]"}, {"id": "ch50", "type": "tv", "name": "ESPN 4 [BE]"}, {"id": "ch51", "type": "tv", "name": "ESPN [BE]"}, {"id": "ch52", "type": "tv", "name": "ESPN HD [US]"}, {"id": "ch53", "type": "tv", "name": "PREMIER SPORTS 1"}, {"id": "ch54", "type": "tv", "name": "PREMIER SPORTS 2"}, {"id": "ch55", "type": "tv", "name": "SKY SPORTS FOOTBALL"}, {"id": "ch56", "type": "tv", "name": "ZIGGO SPORT"}, {"id": "ch57", "type": "tv", "name": "ZIGGO SPORT 2"}, {"id": "ch58", "type": "tv", "name": "ZIGGO SPORT 6"}, {"id": "ch59", "type": "tv", "name": "HYPERMOTION FHD"}, {"id": "ch60", "type": "tv", "name": "HYPERMOTION SD"}, {"id": "ch61", "type": "tv", "name": "DAZN LA LIGA 1"}, {"id": "ch62", "type": "tv", "name": "DAZN LA LIGA 1 FHD"}, {"id": "ch63", "type": "tv", "name": "DAZN LA LIGA 2 FHD"}, {"id": "ch64", "type": "tv", "name": "M+ LALIGA FHD"}, {"id": "ch65", "type": "tv", "name": "M+ LALIGA"}, {"id": "ch66", "type": "tv", "name": "M+ LALIGA 2 FHD"}, {"id": "ch67", "type": "tv", "name": "M+ LALIGA 2"}, {"id": "ch68", "type": "tv", "name": "M+ LALIGA 3 FHD"}, {"id": "ch69", "type": "tv", "name": "M+ LALIGA 3"}, {"id": "ch70", "type": "tv", "name": "M+ LALIGA 4"}, {"id": "ch71", "type": "tv", "name": "LIGA DE CAMPEONES FHD"}, {"id": "ch72", "type": "tv", "name": "LIGA DE CAMPEONES"}, {"id": "ch73", "type": "tv", "name": "LIGA DE CAMPEONES 2 FHD"}, {"id": "ch74", "type": "tv", "name": "LIGA DE CAMPEONES 2"}, {"id": "ch75", "type": "tv", "name": "LIGA DE CAMPEONES 3 FHD"}, {"id": "ch76", "type": "tv", "name": "LIGA DE CAMPEONES 3"}, {"id": "ch77", "type": "tv", "name": "LIGA DE CAMPEONES 4"}, {"id": "ch78", "type": "tv", "name": "LIGA DE CAMPEONES 5 FHD"}, {"id": "ch79", "type": "tv", "name": "LIGA DE CAMPEONES 6 FHD"}, {"id": "ch80", "type": "tv", "name": "CANAL MOTOR"}, {"id": "ch81", "type": "tv", "name": "MOTORS TV HD"}, {"id": "ch82", "type": "tv", "name": "MOTORVISION"}, {"id": "ch83", "type": "tv", "name": "RALLY TV FHD"}, {"id": "ch84", "type": "tv", "name": "RETROVISION MOTOR"}, {"id": "ch85", "type": "tv", "name": "CALLE 13 HD"}, {"id": "ch86", "type": "tv", "name": "CANAL COCINA FHD"}, {"id": "ch87", "type": "tv", "name": "CAZA Y PESCA FHD HD"}, {"id": "ch88", "type": "tv", "name": "DARK HD"}, {"id": "ch89", "type": "tv", "name": "MOVISTAR ACCION"}, {"id": "ch90", "type": "tv", "name": "MOVISTAR ACCION HD"}, {"id": "ch91", "type": "tv", "name": "MOVISTAR CINE ESPAÑOL FHD"}, {"id": "ch92", "type": "tv", "name": "MOVISTAR COMEDIA HD"}, {"id": "ch93", "type": "tv", "name": "MOVISTAR DOCUMENTALES FHD"}, {"id": "ch94", "type": "tv", "name": "MOVISTAR ESTRENOS FHD"}, {"id": "ch95", "type": "tv", "name": "MOVISTAR HITS FHD"}, {"id": "ch96", "type": "tv", "name": "MOVISTAR ORIGINALES FHD"}, {"id": "ch97", "type": "tv", "name": "MOVISTAR PLUS FHD"}, {"id": "ch98", "type": "tv", "name": "Nickelodeon HD"}, {"id": "ch99", "type": "tv", "name": "ONETORO FHD"}, {"id": "ch100", "type": "tv", "name": "TVG EUROPA HD"}, {"id": "ch101", "type": "tv", "name": "MOVISTAR DEPORTES"}, {"id": "ch102", "type": "tv", "name": "MOVISTAR DEPORTES 2 FHD"}, {"id": "ch103", "type": "tv", "name": "MOVISTAR DEPORTES 2"}, {"id": "ch104", "type": "tv", "name": "MOVISTAR DEPORTES 2 HD"}, {"id": "ch105", "type": "tv", "name": "MOVISTAR DEPORTES 3 HD"}, {"id": "ch106", "type": "tv", "name": "MOVISTAR DEPORTES 4 FHD"}, {"id": "ch107", "type": "tv", "name": "MOVISTAR DEPORTES 4 HD"}, {"id": "ch108", "type": "tv", "name": "MOVISTAR DEPORTES 5 FHD"}, {"id": "ch109", "type": "tv", "name": "MOVISTAR DEPORTES 5 HD"}, {"id": "ch110", "type": "tv", "name": "MOVISTAR DEPORTES 6 FHD"}, {"id": "ch111", "type": "tv", "name": "MOVISTAR DEPORTES 6 HD"}, {"id": "ch112", "type": "tv", "name": "MOVISTAR GOLF FHD"}, {"id": "ch113", "type": "tv", "name": "MOVISTAR GOLF HD"}, {"id": "ch114", "type": "tv", "name": "MOVISTAR VAMOS FHD"}, {"id": "ch115", "type": "tv", "name": "MOVISTAR VAMOS"}, {"id": "ch116", "type": "tv", "name": "beIN SPORTS HD 2 (TR)"}, {"id": "ch117", "type": "tv", "name": "beIN SPORTS HD 3 (TR)"}, {"id": "ch118", "type": "tv", "name": "beIN SPORTS HD 4 (TR)"}, {"id": "ch119", "type": "tv", "name": "beIN SPORTS HABER (TR)"}, {"id": "ch120", "type": "tv", "name": "Canal de Tenis HD (ES)"}, {"id": "ch121", "type": "tv", "name": "CANAL+ Sport 2 (PL) HD"}, {"id": "ch122", "type": "tv", "name": "CANAL+ Sport 3 (PL)"}, {"id": "ch123", "type": "tv", "name": "CANAL+ Sport 4 (PL)"}, {"id": "ch124", "type": "tv", "name": "CANAL+ Sport (PL)"}, {"id": "ch125", "type": "tv", "name": "Eurosport360 HD 1 (DE)"}, {"id": "ch126", "type": "tv", "name": "Eurosport360 HD 2 (DE)"}, {"id": "ch127", "type": "tv", "name": "Eurosport360 HD 3 (DE)"}, {"id": "ch128", "type": "tv", "name": "Eurosport360 HD 4 (DE)"}, {"id": "ch129", "type": "tv", "name": "Eurosport360 HD 5 (DE)"}, {"id": "ch130", "type": "tv", "name": "Eurosport360 HD 6  (DE)"}, {"id": "ch131", "type": "tv", "name": "Eurosport360 HD 7  (DE)"}, {"id": "ch132", "type": "tv", "name": "Eurosport360 HD 8  (DE)"}, {"id": "ch133", "type": "tv", "name": "Eurosport 1 HD (DE)"}, {"id": "ch134", "type": "tv", "name": "Eurosport 1 HD (RU)"}, {"id": "ch135", "type": "tv", "name": "Eurosport (PL)"}, {"id": "ch136", "type": "tv", "name": "Extreme Sports (PL)"}, {"id": "ch137", "type": "tv", "name": "Fast&Funbox HD (RU)"}, {"id": "ch138", "type": "tv", "name": "FightBox HD (RU)"}, {"id": "ch139", "type": "tv", "name": "FOX Sports 1 HD (US)"}, {"id": "ch140", "type": "tv", "name": "FOX Sports 2 HD (US)"}, {"id": "ch141", "type": "tv", "name": "M-1 Global (RU)"}, {"id": "ch142", "type": "tv", "name": "M. Deportes HD (ES)"}, {"id": "ch143", "type": "tv", "name": "nSport+ (PL)"}, {"id": "ch144", "type": "tv", "name": "ORF SPORT+ HD (DE)"}, {"id": "ch145", "type": "tv", "name": "Polsat Sport (PL)"}, {"id": "ch146", "type": "tv", "name": "Polsat Sport Extra (PL)"}, {"id": "ch147", "type": "tv", "name": "Polsat Sport Fight (PL)"}, {"id": "ch148", "type": "tv", "name": "Polsat Sport Premium 1 (PL)"}, {"id": "ch149", "type": "tv", "name": "Polsat Sport Premium 2 (PL)"}, {"id": "ch150", "type": "tv", "name": "Sky Sport 1 HD (DE)"}, {"id": "ch151", "type": "tv", "name": "Sky Sport 2 HD (DE)"}, {"id": "ch152", "type": "tv", "name": "Sky Sport News (DE)"}, {"id": "ch153", "type": "tv", "name": "SkySP PL (UK)"}, {"id": "ch154", "type": "tv", "name": "SPORT1 (DE)"}, {"id": "ch155", "type": "tv", "name": "SPORT1+ (DE)"}, {"id": "ch156", "type": "tv", "name": "Sport Digital (DE)"}, {"id": "ch157", "type": "tv", "name": "Sport Klub (PL)"}, {"id": "ch158", "type": "tv", "name": "SuperTennis HD (ES)"}, {"id": "ch159", "type": "tv", "name": "TVP Sport HD (PL)"}, {"id": "ch160", "type": "tv", "name": "UFC HD (RU)"}, {"id": "ch161", "type": "tv", "name": "Ziggo Sport (ES)"}, {"id": "ch162", "type": "tv", "name": "Comedy Central HD"}, {"id": "ch163", "type": "tv", "name": "CUATRO FHD"}, {"id": "ch164", "type": "tv", "name": "Disney Channel"}, {"id": "ch165", "type": "tv", "name": "LA 1 FHD"}, {"id": "ch166", "type": "tv", "name": "LA 2 FHD"}, {"id": "ch167", "type": "tv", "name": "TENNIS CHANNEL"}, {"id": "ch168", "type": "tv", "name": "TENNIS CHANNEL HD"}, {"id": "ch169", "type": "tv", "name": "Auto Motor und Sport Channel"}, {"id": "ch170", "type": "tv", "name": "beIN Movies Turk"}, {"id": "ch171", "type": "tv", "name": "BeinSport"}, {"id": "ch172", "type": "tv", "name": "Canal+ action"}, {"id": "ch173", "type": "tv", "name": "CANAL+ SPORT"}, {"id": "ch174", "type": "tv", "name": "Canal+ Sport 3 PL"}, {"id": "ch175", "type": "tv", "name": "DAZN MOTOGP"}, {"id": "ch176", "type": "tv", "name": "DAZN MOTOGP FHD"}, {"id": "ch177", "type": "tv", "name": "Disney Junior FHDp *"}, {"id": "ch178", "type": "tv", "name": "Film+ HD"}, {"id": "ch179", "type": "tv", "name": "Gol TV FHDp *"}, {"id": "ch180", "type": "tv", "name": "Gol TV FHDp **"}, {"id": "ch181", "type": "tv", "name": "M+ CINE ESPAnOL HD Spain"}, {"id": "ch182", "type": "tv", "name": "M+ Documentales HD Spain"}, {"id": "ch183", "type": "tv", "name": "M+ DRAMA HD Spain"}, {"id": "ch184", "type": "tv", "name": "M+ Hits HD Spain"}, {"id": "ch185", "type": "tv", "name": "M+ Indie HD Spain"}, {"id": "ch186", "type": "tv", "name": "M+ Originales HD Spain"}, {"id": "ch187", "type": "tv", "name": "M+ Romance HD Spain"}, {"id": "ch188", "type": "tv", "name": "M+ Terror HD Spain"}, {"id": "ch189", "type": "tv", "name": "M+ Wéstern HD Spain"}, {"id": "ch190", "type": "tv", "name": "Magenta Sport 1 HD (DE)"}, {"id": "ch191", "type": "tv", "name": "Magenta Sport 2 HD (DE)"}, {"id": "ch192", "type": "tv", "name": "Magenta Sport 3 HD (DE)"}, {"id": "ch193", "type": "tv", "name": "Magenta Sport 4 HD (DE)"}, {"id": "ch194", "type": "tv", "name": "Magenta Sport 5 HD (DE)"}, {"id": "ch195", "type": "tv", "name": "Magenta Sport 6 HD (DE)"}, {"id": "ch196", "type": "tv", "name": "Magenta Sport 7 HD (DE)"}, {"id": "ch197", "type": "tv", "name": "Magenta Sport 8 HD (DE)"}, {"id": "ch198", "type": "tv", "name": "Magenta Sport 9 HD (DE)"}, {"id": "ch199", "type": "tv", "name": "Magenta Sport 10 HD (DE)"}, {"id": "ch200", "type": "tv", "name": "Magenta Sport 11 HD (DE)"}, {"id": "ch201", "type": "tv", "name": "NBA League Pass FHDp *"}, {"id": "ch202", "type": "tv", "name": "NBA League Pass FHDp **"}, {"id": "ch203", "type": "tv", "name": "noa4 Hamburg FHD"}, {"id": "ch204", "type": "tv", "name": "Orange TV"}, {"id": "ch205", "type": "tv", "name": "Pluto TV Auto Motor Sport (720p)"}, {"id": "ch206", "type": "tv", "name": "RTL+ SPORT EVENT 1 (DE)"}, {"id": "ch207", "type": "tv", "name": "RTL+ SPORT EVENT 2 (DE)"}, {"id": "ch208", "type": "tv", "name": "RTL+ SPORT EVENT 3 (DE)"}, {"id": "ch209", "type": "tv", "name": "RTL+ SPORT EVENT 4 (DE)"}, {"id": "ch210", "type": "tv", "name": "RTL+ SPORT EVENT 5 (DE)"}, {"id": "ch211", "type": "tv", "name": "RTL+ SPORT EVENT 6 (DE)"}, {"id": "ch212", "type": "tv", "name": "RTL+ SPORT EVENT 7 (DE)"}, {"id": "ch213", "type": "tv", "name": "RTL+ SPORT EVENT 8 (DE)"}, {"id": "ch214", "type": "tv", "name": "RTL+ SPORT EVENT 9 (DE)"}, {"id": "ch215", "type": "tv", "name": "RTL+ SPORT EVENT 10 (DE)"}, {"id": "ch216", "type": "tv", "name": "Setanta Live 1 (RU)"}, {"id": "ch217", "type": "tv", "name": "Setanta Live 2 (RU)"}, {"id": "ch218", "type": "tv", "name": "Sky Sports LaLiga HD"}, {"id": "ch219", "type": "tv", "name": "SuperTennis HD"}, {"id": "ch220", "type": "tv", "name": "VIASAT SPORT HD (RU)"}, {"id": "ch221", "type": "tv", "name": "Бокс ТВ (RU)"}, {"id": "ch222", "type": "tv", "name": "Конный мир HD (RU)"}, {"id": "ch223", "type": "tv", "name": "КХЛ HD (RU)"}, {"id": "ch224", "type": "tv", "name": "КХЛ ТВ (RU)"}, {"id": "ch225", "type": "tv", "name": "Матч! Боец (RU)"}, {"id": "ch226", "type": "tv", "name": "Матч! Игра HD (RU)"}, {"id": "ch227", "type": "tv", "name": "МАТЧ! Планета (RU)"}, {"id": "ch228", "type": "tv", "name": "Матч! Премьер HD (RU)"}, {"id": "ch229", "type": "tv", "name": "Матч! Страна (RU)"}, {"id": "ch230", "type": "tv", "name": "Матч! ТВ HD (RU)"}, {"id": "ch231", "type": "tv", "name": "Матч! Футбол 1 ( original ) (RU)"}, {"id": "ch232", "type": "tv", "name": "Матч! Футбол 2 ( original ) (RU)"}, {"id": "ch233", "type": "tv", "name": "Матч! Футбол 3 ( original ) (RU)"}, {"id": "ch234", "type": "tv", "name": "Мир Баскетбола (RU)"}, {"id": "ch235", "type": "tv", "name": "Русский Экстрим (RU)"}, {"id": "ch236", "type": "tv", "name": "Спортивный (RU)"}, {"id": "ch237", "type": "tv", "name": "Старт (RU)"}, {"id": "ch238", "type": "tv", "name": "Точка отрыва (RU)"}, {"id": "ch239", "type": "tv", "name": "Футбол HD (RU)"}, {"id": "ch240", "type": "tv", "name": "Футбольный HD (RU)"}, {"id": "ch241", "type": "tv", "name": "Хоккейный HD (RU)"}]}
+{
+  "metas": [
+    {
+      "id": "ttv_ch1",
+      "type": "tv",
+      "name": "Canal 1 (1RFEF) (SOLO EVENTOS)"
+    },
+    {
+      "id": "ttv_ch2",
+      "type": "tv",
+      "name": "Canal 2 (1RFEF) (SOLO EVENTOS)"
+    },
+    {
+      "id": "ttv_ch3",
+      "type": "tv",
+      "name": "PRIMERA FEDERACIÓN FHD"
+    },
+    {
+      "id": "ttv_ch4",
+      "type": "tv",
+      "name": "DAZN 1 FHD"
+    },
+    {
+      "id": "ttv_ch5",
+      "type": "tv",
+      "name": "DAZN 1"
+    },
+    {
+      "id": "ttv_ch6",
+      "type": "tv",
+      "name": "DAZN 1 BAR FHD"
+    },
+    {
+      "id": "ttv_ch7",
+      "type": "tv",
+      "name": "DAZN 2 FHD"
+    },
+    {
+      "id": "ttv_ch8",
+      "type": "tv",
+      "name": "DAZN 2"
+    },
+    {
+      "id": "ttv_ch9",
+      "type": "tv",
+      "name": "DAZN 2 BAR FHD"
+    },
+    {
+      "id": "ttv_ch10",
+      "type": "tv",
+      "name": "DAZN 3"
+    },
+    {
+      "id": "ttv_ch11",
+      "type": "tv",
+      "name": "DAZN 4 FHD"
+    },
+    {
+      "id": "ttv_ch12",
+      "type": "tv",
+      "name": "DAZN 4"
+    },
+    {
+      "id": "ttv_ch13",
+      "type": "tv",
+      "name": "GOL PLAY FHD"
+    },
+    {
+      "id": "ttv_ch14",
+      "type": "tv",
+      "name": "SKY SPORTS ARENA"
+    },
+    {
+      "id": "ttv_ch15",
+      "type": "tv",
+      "name": "SKY SPORTS CRICKET"
+    },
+    {
+      "id": "ttv_ch16",
+      "type": "tv",
+      "name": "SKY SPORTS MAIN EVENT"
+    },
+    {
+      "id": "ttv_ch17",
+      "type": "tv",
+      "name": "TELEDEPORTE FHD"
+    },
+    {
+      "id": "ttv_ch18",
+      "type": "tv",
+      "name": "TELEDEPORTE"
+    },
+    {
+      "id": "ttv_ch19",
+      "type": "tv",
+      "name": "EUROSPORT 1 FHD"
+    },
+    {
+      "id": "ttv_ch20",
+      "type": "tv",
+      "name": "EUROSPORT 1"
+    },
+    {
+      "id": "ttv_ch21",
+      "type": "tv",
+      "name": "EUROSPORT 1 HD"
+    },
+    {
+      "id": "ttv_ch22",
+      "type": "tv",
+      "name": "EUROSPORT 2"
+    },
+    {
+      "id": "ttv_ch23",
+      "type": "tv",
+      "name": "EUROSPORT 2 HD"
+    },
+    {
+      "id": "ttv_ch24",
+      "type": "tv",
+      "name": "DAZN EVENTOS 2"
+    },
+    {
+      "id": "ttv_ch25",
+      "type": "tv",
+      "name": "DAZN F1 4K"
+    },
+    {
+      "id": "ttv_ch26",
+      "type": "tv",
+      "name": "DAZN F1 FHD"
+    },
+    {
+      "id": "ttv_ch27",
+      "type": "tv",
+      "name": "DAZN F1 SD"
+    },
+    {
+      "id": "ttv_ch28",
+      "type": "tv",
+      "name": "DAZN F1"
+    },
+    {
+      "id": "ttv_ch29",
+      "type": "tv",
+      "name": "DAZN F1 HD"
+    },
+    {
+      "id": "ttv_ch30",
+      "type": "tv",
+      "name": "BEIN SPORTS 1"
+    },
+    {
+      "id": "ttv_ch31",
+      "type": "tv",
+      "name": "beIN SPORTS HD 1 (TR)"
+    },
+    {
+      "id": "ttv_ch32",
+      "type": "tv",
+      "name": "BEIN SPORTS 2"
+    },
+    {
+      "id": "ttv_ch33",
+      "type": "tv",
+      "name": "BEIN SPORTS 3"
+    },
+    {
+      "id": "ttv_ch34",
+      "type": "tv",
+      "name": "BEIN SPORTS Ñ"
+    },
+    {
+      "id": "ttv_ch35",
+      "type": "tv",
+      "name": "BT Sport 1 [UK]"
+    },
+    {
+      "id": "ttv_ch36",
+      "type": "tv",
+      "name": "BT Sport 2 [UK]"
+    },
+    {
+      "id": "ttv_ch37",
+      "type": "tv",
+      "name": "BT Sport 3 [UK]"
+    },
+    {
+      "id": "ttv_ch38",
+      "type": "tv",
+      "name": "ELEVEN DAZN 1"
+    },
+    {
+      "id": "ttv_ch39",
+      "type": "tv",
+      "name": "ELEVEN DAZN 1 HD"
+    },
+    {
+      "id": "ttv_ch40",
+      "type": "tv",
+      "name": "ELEVEN DAZN 2"
+    },
+    {
+      "id": "ttv_ch41",
+      "type": "tv",
+      "name": "ELEVEN DAZN 2 HD"
+    },
+    {
+      "id": "ttv_ch42",
+      "type": "tv",
+      "name": "ELEVEN DAZN 3"
+    },
+    {
+      "id": "ttv_ch43",
+      "type": "tv",
+      "name": "ELEVEN DAZN 3 HD"
+    },
+    {
+      "id": "ttv_ch44",
+      "type": "tv",
+      "name": "ELEVEN DAZN 4"
+    },
+    {
+      "id": "ttv_ch45",
+      "type": "tv",
+      "name": "ELEVEN DAZN 4 HD"
+    },
+    {
+      "id": "ttv_ch46",
+      "type": "tv",
+      "name": "ELEVEN DAZN 5"
+    },
+    {
+      "id": "ttv_ch47",
+      "type": "tv",
+      "name": "ELEVEN DAZN 6"
+    },
+    {
+      "id": "ttv_ch48",
+      "type": "tv",
+      "name": "ESPN2 [US]"
+    },
+    {
+      "id": "ttv_ch49",
+      "type": "tv",
+      "name": "ESPN 2 [BE]"
+    },
+    {
+      "id": "ttv_ch50",
+      "type": "tv",
+      "name": "ESPN 4 [BE]"
+    },
+    {
+      "id": "ttv_ch51",
+      "type": "tv",
+      "name": "ESPN [BE]"
+    },
+    {
+      "id": "ttv_ch52",
+      "type": "tv",
+      "name": "ESPN HD [US]"
+    },
+    {
+      "id": "ttv_ch53",
+      "type": "tv",
+      "name": "PREMIER SPORTS 1"
+    },
+    {
+      "id": "ttv_ch54",
+      "type": "tv",
+      "name": "PREMIER SPORTS 2"
+    },
+    {
+      "id": "ttv_ch55",
+      "type": "tv",
+      "name": "SKY SPORTS FOOTBALL"
+    },
+    {
+      "id": "ttv_ch56",
+      "type": "tv",
+      "name": "ZIGGO SPORT"
+    },
+    {
+      "id": "ttv_ch57",
+      "type": "tv",
+      "name": "ZIGGO SPORT 2"
+    },
+    {
+      "id": "ttv_ch58",
+      "type": "tv",
+      "name": "ZIGGO SPORT 6"
+    },
+    {
+      "id": "ttv_ch59",
+      "type": "tv",
+      "name": "HYPERMOTION FHD"
+    },
+    {
+      "id": "ttv_ch60",
+      "type": "tv",
+      "name": "HYPERMOTION SD"
+    },
+    {
+      "id": "ttv_ch61",
+      "type": "tv",
+      "name": "DAZN LA LIGA 1"
+    },
+    {
+      "id": "ttv_ch62",
+      "type": "tv",
+      "name": "DAZN LA LIGA 1 FHD"
+    },
+    {
+      "id": "ttv_ch63",
+      "type": "tv",
+      "name": "DAZN LA LIGA 2 FHD"
+    },
+    {
+      "id": "ttv_ch64",
+      "type": "tv",
+      "name": "M+ LALIGA FHD"
+    },
+    {
+      "id": "ttv_ch65",
+      "type": "tv",
+      "name": "M+ LALIGA"
+    },
+    {
+      "id": "ttv_ch66",
+      "type": "tv",
+      "name": "M+ LALIGA 2 FHD"
+    },
+    {
+      "id": "ttv_ch67",
+      "type": "tv",
+      "name": "M+ LALIGA 2"
+    },
+    {
+      "id": "ttv_ch68",
+      "type": "tv",
+      "name": "M+ LALIGA 3 FHD"
+    },
+    {
+      "id": "ttv_ch69",
+      "type": "tv",
+      "name": "M+ LALIGA 3"
+    },
+    {
+      "id": "ttv_ch70",
+      "type": "tv",
+      "name": "M+ LALIGA 4"
+    },
+    {
+      "id": "ttv_ch71",
+      "type": "tv",
+      "name": "LIGA DE CAMPEONES FHD"
+    },
+    {
+      "id": "ttv_ch72",
+      "type": "tv",
+      "name": "LIGA DE CAMPEONES"
+    },
+    {
+      "id": "ttv_ch73",
+      "type": "tv",
+      "name": "LIGA DE CAMPEONES 2 FHD"
+    },
+    {
+      "id": "ttv_ch74",
+      "type": "tv",
+      "name": "LIGA DE CAMPEONES 2"
+    },
+    {
+      "id": "ttv_ch75",
+      "type": "tv",
+      "name": "LIGA DE CAMPEONES 3 FHD"
+    },
+    {
+      "id": "ttv_ch76",
+      "type": "tv",
+      "name": "LIGA DE CAMPEONES 3"
+    },
+    {
+      "id": "ttv_ch77",
+      "type": "tv",
+      "name": "LIGA DE CAMPEONES 4"
+    },
+    {
+      "id": "ttv_ch78",
+      "type": "tv",
+      "name": "LIGA DE CAMPEONES 5 FHD"
+    },
+    {
+      "id": "ttv_ch79",
+      "type": "tv",
+      "name": "LIGA DE CAMPEONES 6 FHD"
+    },
+    {
+      "id": "ttv_ch80",
+      "type": "tv",
+      "name": "CANAL MOTOR"
+    },
+    {
+      "id": "ttv_ch81",
+      "type": "tv",
+      "name": "MOTORS TV HD"
+    },
+    {
+      "id": "ttv_ch82",
+      "type": "tv",
+      "name": "MOTORVISION"
+    },
+    {
+      "id": "ttv_ch83",
+      "type": "tv",
+      "name": "RALLY TV FHD"
+    },
+    {
+      "id": "ttv_ch84",
+      "type": "tv",
+      "name": "RETROVISION MOTOR"
+    },
+    {
+      "id": "ttv_ch85",
+      "type": "tv",
+      "name": "CALLE 13 HD"
+    },
+    {
+      "id": "ttv_ch86",
+      "type": "tv",
+      "name": "CANAL COCINA FHD"
+    },
+    {
+      "id": "ttv_ch87",
+      "type": "tv",
+      "name": "CAZA Y PESCA FHD HD"
+    },
+    {
+      "id": "ttv_ch88",
+      "type": "tv",
+      "name": "DARK HD"
+    },
+    {
+      "id": "ttv_ch89",
+      "type": "tv",
+      "name": "MOVISTAR ACCION"
+    },
+    {
+      "id": "ttv_ch90",
+      "type": "tv",
+      "name": "MOVISTAR ACCION HD"
+    },
+    {
+      "id": "ttv_ch91",
+      "type": "tv",
+      "name": "MOVISTAR CINE ESPAÑOL FHD"
+    },
+    {
+      "id": "ttv_ch92",
+      "type": "tv",
+      "name": "MOVISTAR COMEDIA HD"
+    },
+    {
+      "id": "ttv_ch93",
+      "type": "tv",
+      "name": "MOVISTAR DOCUMENTALES FHD"
+    },
+    {
+      "id": "ttv_ch94",
+      "type": "tv",
+      "name": "MOVISTAR ESTRENOS FHD"
+    },
+    {
+      "id": "ttv_ch95",
+      "type": "tv",
+      "name": "MOVISTAR HITS FHD"
+    },
+    {
+      "id": "ttv_ch96",
+      "type": "tv",
+      "name": "MOVISTAR ORIGINALES FHD"
+    },
+    {
+      "id": "ttv_ch97",
+      "type": "tv",
+      "name": "MOVISTAR PLUS FHD"
+    },
+    {
+      "id": "ttv_ch98",
+      "type": "tv",
+      "name": "Nickelodeon HD"
+    },
+    {
+      "id": "ttv_ch99",
+      "type": "tv",
+      "name": "ONETORO FHD"
+    },
+    {
+      "id": "ttv_ch100",
+      "type": "tv",
+      "name": "TVG EUROPA HD"
+    },
+    {
+      "id": "ttv_ch101",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES"
+    },
+    {
+      "id": "ttv_ch102",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 2 FHD"
+    },
+    {
+      "id": "ttv_ch103",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 2"
+    },
+    {
+      "id": "ttv_ch104",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 2 HD"
+    },
+    {
+      "id": "ttv_ch105",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 3 HD"
+    },
+    {
+      "id": "ttv_ch106",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 4 FHD"
+    },
+    {
+      "id": "ttv_ch107",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 4 HD"
+    },
+    {
+      "id": "ttv_ch108",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 5 FHD"
+    },
+    {
+      "id": "ttv_ch109",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 5 HD"
+    },
+    {
+      "id": "ttv_ch110",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 6 FHD"
+    },
+    {
+      "id": "ttv_ch111",
+      "type": "tv",
+      "name": "MOVISTAR DEPORTES 6 HD"
+    },
+    {
+      "id": "ttv_ch112",
+      "type": "tv",
+      "name": "MOVISTAR GOLF FHD"
+    },
+    {
+      "id": "ttv_ch113",
+      "type": "tv",
+      "name": "MOVISTAR GOLF HD"
+    },
+    {
+      "id": "ttv_ch114",
+      "type": "tv",
+      "name": "MOVISTAR VAMOS FHD"
+    },
+    {
+      "id": "ttv_ch115",
+      "type": "tv",
+      "name": "MOVISTAR VAMOS"
+    },
+    {
+      "id": "ttv_ch116",
+      "type": "tv",
+      "name": "beIN SPORTS HD 2 (TR)"
+    },
+    {
+      "id": "ttv_ch117",
+      "type": "tv",
+      "name": "beIN SPORTS HD 3 (TR)"
+    },
+    {
+      "id": "ttv_ch118",
+      "type": "tv",
+      "name": "beIN SPORTS HD 4 (TR)"
+    },
+    {
+      "id": "ttv_ch119",
+      "type": "tv",
+      "name": "beIN SPORTS HABER (TR)"
+    },
+    {
+      "id": "ttv_ch120",
+      "type": "tv",
+      "name": "Canal de Tenis HD (ES)"
+    },
+    {
+      "id": "ttv_ch121",
+      "type": "tv",
+      "name": "CANAL+ Sport 2 (PL) HD"
+    },
+    {
+      "id": "ttv_ch122",
+      "type": "tv",
+      "name": "CANAL+ Sport 3 (PL)"
+    },
+    {
+      "id": "ttv_ch123",
+      "type": "tv",
+      "name": "CANAL+ Sport 4 (PL)"
+    },
+    {
+      "id": "ttv_ch124",
+      "type": "tv",
+      "name": "CANAL+ Sport (PL)"
+    },
+    {
+      "id": "ttv_ch125",
+      "type": "tv",
+      "name": "Eurosport360 HD 1 (DE)"
+    },
+    {
+      "id": "ttv_ch126",
+      "type": "tv",
+      "name": "Eurosport360 HD 2 (DE)"
+    },
+    {
+      "id": "ttv_ch127",
+      "type": "tv",
+      "name": "Eurosport360 HD 3 (DE)"
+    },
+    {
+      "id": "ttv_ch128",
+      "type": "tv",
+      "name": "Eurosport360 HD 4 (DE)"
+    },
+    {
+      "id": "ttv_ch129",
+      "type": "tv",
+      "name": "Eurosport360 HD 5 (DE)"
+    },
+    {
+      "id": "ttv_ch130",
+      "type": "tv",
+      "name": "Eurosport360 HD 6  (DE)"
+    },
+    {
+      "id": "ttv_ch131",
+      "type": "tv",
+      "name": "Eurosport360 HD 7  (DE)"
+    },
+    {
+      "id": "ttv_ch132",
+      "type": "tv",
+      "name": "Eurosport360 HD 8  (DE)"
+    },
+    {
+      "id": "ttv_ch133",
+      "type": "tv",
+      "name": "Eurosport 1 HD (DE)"
+    },
+    {
+      "id": "ttv_ch134",
+      "type": "tv",
+      "name": "Eurosport 1 HD (RU)"
+    },
+    {
+      "id": "ttv_ch135",
+      "type": "tv",
+      "name": "Eurosport (PL)"
+    },
+    {
+      "id": "ttv_ch136",
+      "type": "tv",
+      "name": "Extreme Sports (PL)"
+    },
+    {
+      "id": "ttv_ch137",
+      "type": "tv",
+      "name": "Fast&Funbox HD (RU)"
+    },
+    {
+      "id": "ttv_ch138",
+      "type": "tv",
+      "name": "FightBox HD (RU)"
+    },
+    {
+      "id": "ttv_ch139",
+      "type": "tv",
+      "name": "FOX Sports 1 HD (US)"
+    },
+    {
+      "id": "ttv_ch140",
+      "type": "tv",
+      "name": "FOX Sports 2 HD (US)"
+    },
+    {
+      "id": "ttv_ch141",
+      "type": "tv",
+      "name": "M-1 Global (RU)"
+    },
+    {
+      "id": "ttv_ch142",
+      "type": "tv",
+      "name": "M. Deportes HD (ES)"
+    },
+    {
+      "id": "ttv_ch143",
+      "type": "tv",
+      "name": "nSport+ (PL)"
+    },
+    {
+      "id": "ttv_ch144",
+      "type": "tv",
+      "name": "ORF SPORT+ HD (DE)"
+    },
+    {
+      "id": "ttv_ch145",
+      "type": "tv",
+      "name": "Polsat Sport (PL)"
+    },
+    {
+      "id": "ttv_ch146",
+      "type": "tv",
+      "name": "Polsat Sport Extra (PL)"
+    },
+    {
+      "id": "ttv_ch147",
+      "type": "tv",
+      "name": "Polsat Sport Fight (PL)"
+    },
+    {
+      "id": "ttv_ch148",
+      "type": "tv",
+      "name": "Polsat Sport Premium 1 (PL)"
+    },
+    {
+      "id": "ttv_ch149",
+      "type": "tv",
+      "name": "Polsat Sport Premium 2 (PL)"
+    },
+    {
+      "id": "ttv_ch150",
+      "type": "tv",
+      "name": "Sky Sport 1 HD (DE)"
+    },
+    {
+      "id": "ttv_ch151",
+      "type": "tv",
+      "name": "Sky Sport 2 HD (DE)"
+    },
+    {
+      "id": "ttv_ch152",
+      "type": "tv",
+      "name": "Sky Sport News (DE)"
+    },
+    {
+      "id": "ttv_ch153",
+      "type": "tv",
+      "name": "SkySP PL (UK)"
+    },
+    {
+      "id": "ttv_ch154",
+      "type": "tv",
+      "name": "SPORT1 (DE)"
+    },
+    {
+      "id": "ttv_ch155",
+      "type": "tv",
+      "name": "SPORT1+ (DE)"
+    },
+    {
+      "id": "ttv_ch156",
+      "type": "tv",
+      "name": "Sport Digital (DE)"
+    },
+    {
+      "id": "ttv_ch157",
+      "type": "tv",
+      "name": "Sport Klub (PL)"
+    },
+    {
+      "id": "ttv_ch158",
+      "type": "tv",
+      "name": "SuperTennis HD (ES)"
+    },
+    {
+      "id": "ttv_ch159",
+      "type": "tv",
+      "name": "TVP Sport HD (PL)"
+    },
+    {
+      "id": "ttv_ch160",
+      "type": "tv",
+      "name": "UFC HD (RU)"
+    },
+    {
+      "id": "ttv_ch161",
+      "type": "tv",
+      "name": "Ziggo Sport (ES)"
+    },
+    {
+      "id": "ttv_ch162",
+      "type": "tv",
+      "name": "Comedy Central HD"
+    },
+    {
+      "id": "ttv_ch163",
+      "type": "tv",
+      "name": "CUATRO FHD"
+    },
+    {
+      "id": "ttv_ch164",
+      "type": "tv",
+      "name": "Disney Channel"
+    },
+    {
+      "id": "ttv_ch165",
+      "type": "tv",
+      "name": "LA 1 FHD"
+    },
+    {
+      "id": "ttv_ch166",
+      "type": "tv",
+      "name": "LA 2 FHD"
+    },
+    {
+      "id": "ttv_ch167",
+      "type": "tv",
+      "name": "TENNIS CHANNEL"
+    },
+    {
+      "id": "ttv_ch168",
+      "type": "tv",
+      "name": "TENNIS CHANNEL HD"
+    },
+    {
+      "id": "ttv_ch169",
+      "type": "tv",
+      "name": "Auto Motor und Sport Channel"
+    },
+    {
+      "id": "ttv_ch170",
+      "type": "tv",
+      "name": "beIN Movies Turk"
+    },
+    {
+      "id": "ttv_ch171",
+      "type": "tv",
+      "name": "BeinSport"
+    },
+    {
+      "id": "ttv_ch172",
+      "type": "tv",
+      "name": "Canal+ action"
+    },
+    {
+      "id": "ttv_ch173",
+      "type": "tv",
+      "name": "CANAL+ SPORT"
+    },
+    {
+      "id": "ttv_ch174",
+      "type": "tv",
+      "name": "Canal+ Sport 3 PL"
+    },
+    {
+      "id": "ttv_ch175",
+      "type": "tv",
+      "name": "DAZN MOTOGP"
+    },
+    {
+      "id": "ttv_ch176",
+      "type": "tv",
+      "name": "DAZN MOTOGP FHD"
+    },
+    {
+      "id": "ttv_ch177",
+      "type": "tv",
+      "name": "Disney Junior FHDp *"
+    },
+    {
+      "id": "ttv_ch178",
+      "type": "tv",
+      "name": "Film+ HD"
+    },
+    {
+      "id": "ttv_ch179",
+      "type": "tv",
+      "name": "Gol TV FHDp *"
+    },
+    {
+      "id": "ttv_ch180",
+      "type": "tv",
+      "name": "Gol TV FHDp **"
+    },
+    {
+      "id": "ttv_ch181",
+      "type": "tv",
+      "name": "M+ CINE ESPAnOL HD Spain"
+    },
+    {
+      "id": "ttv_ch182",
+      "type": "tv",
+      "name": "M+ Documentales HD Spain"
+    },
+    {
+      "id": "ttv_ch183",
+      "type": "tv",
+      "name": "M+ DRAMA HD Spain"
+    },
+    {
+      "id": "ttv_ch184",
+      "type": "tv",
+      "name": "M+ Hits HD Spain"
+    },
+    {
+      "id": "ttv_ch185",
+      "type": "tv",
+      "name": "M+ Indie HD Spain"
+    },
+    {
+      "id": "ttv_ch186",
+      "type": "tv",
+      "name": "M+ Originales HD Spain"
+    },
+    {
+      "id": "ttv_ch187",
+      "type": "tv",
+      "name": "M+ Romance HD Spain"
+    },
+    {
+      "id": "ttv_ch188",
+      "type": "tv",
+      "name": "M+ Terror HD Spain"
+    },
+    {
+      "id": "ttv_ch189",
+      "type": "tv",
+      "name": "M+ Wéstern HD Spain"
+    },
+    {
+      "id": "ttv_ch190",
+      "type": "tv",
+      "name": "Magenta Sport 1 HD (DE)"
+    },
+    {
+      "id": "ttv_ch191",
+      "type": "tv",
+      "name": "Magenta Sport 2 HD (DE)"
+    },
+    {
+      "id": "ttv_ch192",
+      "type": "tv",
+      "name": "Magenta Sport 3 HD (DE)"
+    },
+    {
+      "id": "ttv_ch193",
+      "type": "tv",
+      "name": "Magenta Sport 4 HD (DE)"
+    },
+    {
+      "id": "ttv_ch194",
+      "type": "tv",
+      "name": "Magenta Sport 5 HD (DE)"
+    },
+    {
+      "id": "ttv_ch195",
+      "type": "tv",
+      "name": "Magenta Sport 6 HD (DE)"
+    },
+    {
+      "id": "ttv_ch196",
+      "type": "tv",
+      "name": "Magenta Sport 7 HD (DE)"
+    },
+    {
+      "id": "ttv_ch197",
+      "type": "tv",
+      "name": "Magenta Sport 8 HD (DE)"
+    },
+    {
+      "id": "ttv_ch198",
+      "type": "tv",
+      "name": "Magenta Sport 9 HD (DE)"
+    },
+    {
+      "id": "ttv_ch199",
+      "type": "tv",
+      "name": "Magenta Sport 10 HD (DE)"
+    },
+    {
+      "id": "ttv_ch200",
+      "type": "tv",
+      "name": "Magenta Sport 11 HD (DE)"
+    },
+    {
+      "id": "ttv_ch201",
+      "type": "tv",
+      "name": "NBA League Pass FHDp *"
+    },
+    {
+      "id": "ttv_ch202",
+      "type": "tv",
+      "name": "NBA League Pass FHDp **"
+    },
+    {
+      "id": "ttv_ch203",
+      "type": "tv",
+      "name": "noa4 Hamburg FHD"
+    },
+    {
+      "id": "ttv_ch204",
+      "type": "tv",
+      "name": "Orange TV"
+    },
+    {
+      "id": "ttv_ch205",
+      "type": "tv",
+      "name": "Pluto TV Auto Motor Sport (720p)"
+    },
+    {
+      "id": "ttv_ch206",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 1 (DE)"
+    },
+    {
+      "id": "ttv_ch207",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 2 (DE)"
+    },
+    {
+      "id": "ttv_ch208",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 3 (DE)"
+    },
+    {
+      "id": "ttv_ch209",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 4 (DE)"
+    },
+    {
+      "id": "ttv_ch210",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 5 (DE)"
+    },
+    {
+      "id": "ttv_ch211",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 6 (DE)"
+    },
+    {
+      "id": "ttv_ch212",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 7 (DE)"
+    },
+    {
+      "id": "ttv_ch213",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 8 (DE)"
+    },
+    {
+      "id": "ttv_ch214",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 9 (DE)"
+    },
+    {
+      "id": "ttv_ch215",
+      "type": "tv",
+      "name": "RTL+ SPORT EVENT 10 (DE)"
+    },
+    {
+      "id": "ttv_ch216",
+      "type": "tv",
+      "name": "Setanta Live 1 (RU)"
+    },
+    {
+      "id": "ttv_ch217",
+      "type": "tv",
+      "name": "Setanta Live 2 (RU)"
+    },
+    {
+      "id": "ttv_ch218",
+      "type": "tv",
+      "name": "Sky Sports LaLiga HD"
+    },
+    {
+      "id": "ttv_ch219",
+      "type": "tv",
+      "name": "SuperTennis HD"
+    },
+    {
+      "id": "ttv_ch220",
+      "type": "tv",
+      "name": "VIASAT SPORT HD (RU)"
+    },
+    {
+      "id": "ttv_ch221",
+      "type": "tv",
+      "name": "Бокс ТВ (RU)"
+    },
+    {
+      "id": "ttv_ch222",
+      "type": "tv",
+      "name": "Конный мир HD (RU)"
+    },
+    {
+      "id": "ttv_ch223",
+      "type": "tv",
+      "name": "КХЛ HD (RU)"
+    },
+    {
+      "id": "ttv_ch224",
+      "type": "tv",
+      "name": "КХЛ ТВ (RU)"
+    },
+    {
+      "id": "ttv_ch225",
+      "type": "tv",
+      "name": "Матч! Боец (RU)"
+    },
+    {
+      "id": "ttv_ch226",
+      "type": "tv",
+      "name": "Матч! Игра HD (RU)"
+    },
+    {
+      "id": "ttv_ch227",
+      "type": "tv",
+      "name": "МАТЧ! Планета (RU)"
+    },
+    {
+      "id": "ttv_ch228",
+      "type": "tv",
+      "name": "Матч! Премьер HD (RU)"
+    },
+    {
+      "id": "ttv_ch229",
+      "type": "tv",
+      "name": "Матч! Страна (RU)"
+    },
+    {
+      "id": "ttv_ch230",
+      "type": "tv",
+      "name": "Матч! ТВ HD (RU)"
+    },
+    {
+      "id": "ttv_ch231",
+      "type": "tv",
+      "name": "Матч! Футбол 1 ( original ) (RU)"
+    },
+    {
+      "id": "ttv_ch232",
+      "type": "tv",
+      "name": "Матч! Футбол 2 ( original ) (RU)"
+    },
+    {
+      "id": "ttv_ch233",
+      "type": "tv",
+      "name": "Матч! Футбол 3 ( original ) (RU)"
+    },
+    {
+      "id": "ttv_ch234",
+      "type": "tv",
+      "name": "Мир Баскетбола (RU)"
+    },
+    {
+      "id": "ttv_ch235",
+      "type": "tv",
+      "name": "Русский Экстрим (RU)"
+    },
+    {
+      "id": "ttv_ch236",
+      "type": "tv",
+      "name": "Спортивный (RU)"
+    },
+    {
+      "id": "ttv_ch237",
+      "type": "tv",
+      "name": "Старт (RU)"
+    },
+    {
+      "id": "ttv_ch238",
+      "type": "tv",
+      "name": "Точка отрыва (RU)"
+    },
+    {
+      "id": "ttv_ch239",
+      "type": "tv",
+      "name": "Футбол HD (RU)"
+    },
+    {
+      "id": "ttv_ch240",
+      "type": "tv",
+      "name": "Футбольный HD (RU)"
+    },
+    {
+      "id": "ttv_ch241",
+      "type": "tv",
+      "name": "Хоккейный HD (RU)"
+    }
+  ]
+}

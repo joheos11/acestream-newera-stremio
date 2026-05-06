@@ -92,6 +92,18 @@ def index():
     })
 
 
+
+@app.route("/addons.json")
+def serve_addons():
+    """Endpoint de descubrimiento para que Stremio sepa que este addon sirve los streams."""
+    return jsonify({
+        "addons": [{
+            "transport": "stremio-addon",
+            "manifest": _MANIFEST,
+        }]
+    })
+
+
 # ============================================================================
 # VERCEL
 # ============================================================================

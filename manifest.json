@@ -6,22 +6,30 @@
   "icon": "https://i.imgur.com/AcestreamIcon.png",
   "logo": "https://i.imgur.com/AcestreamLogo.png",
   "background": "https://i.imgur.com/AcestreamBg.png",
-  "types": ["tv"],
+  "types": [
+    "tv"
+  ],
   "catalogs": [
     {
       "type": "tv",
       "id": "canales",
       "name": "📡 Canales - NEW ERA (241)",
       "extra": [
-        {"name": "search", "isRequired": false}
+        {
+          "name": "search",
+          "isRequired": false
+        }
       ]
     }
   ],
   "resources": [
     "catalog",
-    "stream"
+    "stream",
+    "addons"
   ],
-  "idPrefixes": ["ch"],
+  "idPrefixes": [
+    "ttv"
+  ],
   "behaviorHints": {
     "P2P": false,
     "configurable": false,
