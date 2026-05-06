@@ -24,6 +24,7 @@
   ],
   "resources": [
     "catalog",
+    "meta",
     "stream",
     "addons"
   ],

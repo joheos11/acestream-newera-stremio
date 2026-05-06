@@ -73,9 +73,9 @@ def serve_meta(stremio_id: str):
             "genre": [ch.get("genre", "TV")],
             "posterShape": "square",
         }
-        return jsonify(meta)
+        return jsonify({"meta": meta})
     # Si no se encuentra, devolver un meta vacío que Stremio pueda ignorar
-    return jsonify({"id": stremio_id, "type": "tv", "name": stremio_id, "poster": _POSTER})
+    return jsonify({"meta": {"id": stremio_id, "type": "tv", "name": stremio_id, "poster": _POSTER}})
 
 
 @app.route("/stream/tv/<stremio_id>.json")
@@ -86,7 +86,7 @@ def serve_stream(stremio_id: str):
         return jsonify({
             "streams": [{
                 "title": f"🔴 {ch.get('name', stremio_id)}",
-                "url": f"acestream://{ch['acestream_id']}",
+                "url": f"http://127.0.0.1:6878/ace/getstream?id={ch['acestream_id']}",
                 "behaviorHints": {
                     "notWebReady": True,
                     "hasChromecastSupport": False,
