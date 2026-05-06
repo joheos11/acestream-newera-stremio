@@ -84,15 +84,16 @@ def serve_stream(stremio_id: str):
     ch = _STREAMS.get(stremio_id)
     if ch:
         return jsonify({
-            "streams": [{
-                "title": f"🔴 {ch.get('name', stremio_id)}",
-                "url": f"http://127.0.0.1:6878/ace/getstream?id={ch['acestream_id']}&format=.mp4",
-                "behaviorHints": {
-                    "notWebReady": True,
-                    "hasChromecastSupport": False,
-                    "hasDrmSources": False,
+            "streams": [
+                {
+                    "title": f"🔴 NATIVO: {ch.get('name', stremio_id)}",
+                    "url": f"http://127.0.0.1:6878/ace/getstream?id={ch['acestream_id']}/stream.mp4"
                 },
-            }]
+                {
+                    "title": f"🟢 EXTERNO: {ch.get('name', stremio_id)}",
+                    "externalUrl": f"http://127.0.0.1:6878/ace/getstream?id={ch['acestream_id']}"
+                }
+            ]
         })
     return jsonify({"streams": []})
 
