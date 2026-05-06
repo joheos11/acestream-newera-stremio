@@ -17,11 +17,15 @@ _MANIFEST = _load("manifest.json")
 _CATALOG = _load("catalog.json")
 _STREAMS = _load("streams.json")
 
+# Poster genérico para todos los canales
+_POSTER = "https://i.imgur.com/AcestreamIcon.png"
+_BACKGROUND = "https://i.imgur.com/AcestreamBg.png"
+
 
 # ============================================================================
 # FLASK (mínimo, solo sirve archivos estáticos)
 # ============================================================================
-from flask import Flask, jsonify, send_from_directory
+from flask import Flask, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -32,7 +36,7 @@ CORS(app)
 def cors_headers(response):
     response.headers["Access-Control-Allow-Origin"] = "*"
     response.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
-    response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type, Origin, Referer"
     return response
 
 
@@ -56,28 +60,38 @@ def serve_catalog_tv():
 
 @app.route("/meta/tv/<stremio_id>.json")
 def serve_meta(stremio_id: str):
-    """Info de un canal individual (la necesita Stremio para la pantalla de detalle)."""
+    """Info de un canal individual con campos completos para Stremio."""
     ch = _STREAMS.get(stremio_id)
     if ch:
-        return jsonify({
-            "meta": {
-                "id": stremio_id,
-                "type": "tv",
-                "name": ch["name"],
-            }
-        })
-    return jsonify({"meta": None})
+        # Devolver el objeto meta directamente, no envuelto en "meta"
+        meta = {
+            "id": stremio_id,
+            "type": "tv",
+            "name": ch.get("name", stremio_id),
+            "poster": _POSTER,
+            "background": _BACKGROUND,
+            "genre": [ch.get("genre", "TV")],
+            "posterShape": "square",
+        }
+        return jsonify(meta)
+    # Si no se encuentra, devolver un meta vacío que Stremio pueda ignorar
+    return jsonify({"id": stremio_id, "type": "tv", "name": stremio_id, "poster": _POSTER})
 
 
 @app.route("/stream/tv/<stremio_id>.json")
 def serve_stream(stremio_id: str):
+    """Stream del canal — acestream:// con notWebReady=True para Acestream."""
     ch = _STREAMS.get(stremio_id)
     if ch:
         return jsonify({
             "streams": [{
-                "title": f"🔴 {ch['name']}",
+                "title": f"🔴 {ch.get('name', stremio_id)}",
                 "url": f"acestream://{ch['acestream_id']}",
-                "behaviorHints": {"notWebReady": True},
+                "behaviorHints": {
+                    "notWebReady": True,
+                    "hasChromecastSupport": False,
+                    "hasDrmSources": False,
+                },
             }]
         })
     return jsonify({"streams": []})
@@ -92,10 +106,9 @@ def index():
     })
 
 
-
 @app.route("/addons.json")
 def serve_addons():
-    """Endpoint de descubrimiento para que Stremio sepa que este addon sirve los streams."""
+    """Endpoint de descubrimiento."""
     return jsonify({
         "addons": [{
             "transport": "stremio-addon",

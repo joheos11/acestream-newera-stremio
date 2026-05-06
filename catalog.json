@@ -3,1207 +3,2412 @@
     {
       "id": "ttv_ch1",
       "type": "tv",
-      "name": "Canal 1 (1RFEF) (SOLO EVENTOS)"
+      "name": "Canal 1 (1RFEF) (SOLO EVENTOS)",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch2",
       "type": "tv",
-      "name": "Canal 2 (1RFEF) (SOLO EVENTOS)"
+      "name": "Canal 2 (1RFEF) (SOLO EVENTOS)",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch3",
       "type": "tv",
-      "name": "PRIMERA FEDERACIÓN FHD"
+      "name": "PRIMERA FEDERACIÓN FHD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch4",
       "type": "tv",
-      "name": "DAZN 1 FHD"
+      "name": "DAZN 1 FHD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch5",
       "type": "tv",
-      "name": "DAZN 1"
+      "name": "DAZN 1",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch6",
       "type": "tv",
-      "name": "DAZN 1 BAR FHD"
+      "name": "DAZN 1 BAR FHD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch7",
       "type": "tv",
-      "name": "DAZN 2 FHD"
+      "name": "DAZN 2 FHD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch8",
       "type": "tv",
-      "name": "DAZN 2"
+      "name": "DAZN 2",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch9",
       "type": "tv",
-      "name": "DAZN 2 BAR FHD"
+      "name": "DAZN 2 BAR FHD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch10",
       "type": "tv",
-      "name": "DAZN 3"
+      "name": "DAZN 3",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch11",
       "type": "tv",
-      "name": "DAZN 4 FHD"
+      "name": "DAZN 4 FHD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch12",
       "type": "tv",
-      "name": "DAZN 4"
+      "name": "DAZN 4",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch13",
       "type": "tv",
-      "name": "GOL PLAY FHD"
+      "name": "GOL PLAY FHD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch14",
       "type": "tv",
-      "name": "SKY SPORTS ARENA"
+      "name": "SKY SPORTS ARENA",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch15",
       "type": "tv",
-      "name": "SKY SPORTS CRICKET"
+      "name": "SKY SPORTS CRICKET",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch16",
       "type": "tv",
-      "name": "SKY SPORTS MAIN EVENT"
+      "name": "SKY SPORTS MAIN EVENT",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch17",
       "type": "tv",
-      "name": "TELEDEPORTE FHD"
+      "name": "TELEDEPORTE FHD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch18",
       "type": "tv",
-      "name": "TELEDEPORTE"
+      "name": "TELEDEPORTE",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch19",
       "type": "tv",
-      "name": "EUROSPORT 1 FHD"
+      "name": "EUROSPORT 1 FHD",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch20",
       "type": "tv",
-      "name": "EUROSPORT 1"
+      "name": "EUROSPORT 1",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch21",
       "type": "tv",
-      "name": "EUROSPORT 1 HD"
+      "name": "EUROSPORT 1 HD",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch22",
       "type": "tv",
-      "name": "EUROSPORT 2"
+      "name": "EUROSPORT 2",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch23",
       "type": "tv",
-      "name": "EUROSPORT 2 HD"
+      "name": "EUROSPORT 2 HD",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch24",
       "type": "tv",
-      "name": "DAZN EVENTOS 2"
+      "name": "DAZN EVENTOS 2",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch25",
       "type": "tv",
-      "name": "DAZN F1 4K"
+      "name": "DAZN F1 4K",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch26",
       "type": "tv",
-      "name": "DAZN F1 FHD"
+      "name": "DAZN F1 FHD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch27",
       "type": "tv",
-      "name": "DAZN F1 SD"
+      "name": "DAZN F1 SD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch28",
       "type": "tv",
-      "name": "DAZN F1"
+      "name": "DAZN F1",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch29",
       "type": "tv",
-      "name": "DAZN F1 HD"
+      "name": "DAZN F1 HD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch30",
       "type": "tv",
-      "name": "BEIN SPORTS 1"
+      "name": "BEIN SPORTS 1",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch31",
       "type": "tv",
-      "name": "beIN SPORTS HD 1 (TR)"
+      "name": "beIN SPORTS HD 1 (TR)",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch32",
       "type": "tv",
-      "name": "BEIN SPORTS 2"
+      "name": "BEIN SPORTS 2",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch33",
       "type": "tv",
-      "name": "BEIN SPORTS 3"
+      "name": "BEIN SPORTS 3",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch34",
       "type": "tv",
-      "name": "BEIN SPORTS Ñ"
+      "name": "BEIN SPORTS Ñ",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch35",
       "type": "tv",
-      "name": "BT Sport 1 [UK]"
+      "name": "BT Sport 1 [UK]",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch36",
       "type": "tv",
-      "name": "BT Sport 2 [UK]"
+      "name": "BT Sport 2 [UK]",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch37",
       "type": "tv",
-      "name": "BT Sport 3 [UK]"
+      "name": "BT Sport 3 [UK]",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch38",
       "type": "tv",
-      "name": "ELEVEN DAZN 1"
+      "name": "ELEVEN DAZN 1",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch39",
       "type": "tv",
-      "name": "ELEVEN DAZN 1 HD"
+      "name": "ELEVEN DAZN 1 HD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch40",
       "type": "tv",
-      "name": "ELEVEN DAZN 2"
+      "name": "ELEVEN DAZN 2",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch41",
       "type": "tv",
-      "name": "ELEVEN DAZN 2 HD"
+      "name": "ELEVEN DAZN 2 HD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch42",
       "type": "tv",
-      "name": "ELEVEN DAZN 3"
+      "name": "ELEVEN DAZN 3",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch43",
       "type": "tv",
-      "name": "ELEVEN DAZN 3 HD"
+      "name": "ELEVEN DAZN 3 HD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch44",
       "type": "tv",
-      "name": "ELEVEN DAZN 4"
+      "name": "ELEVEN DAZN 4",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch45",
       "type": "tv",
-      "name": "ELEVEN DAZN 4 HD"
+      "name": "ELEVEN DAZN 4 HD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch46",
       "type": "tv",
-      "name": "ELEVEN DAZN 5"
+      "name": "ELEVEN DAZN 5",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch47",
       "type": "tv",
-      "name": "ELEVEN DAZN 6"
+      "name": "ELEVEN DAZN 6",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch48",
       "type": "tv",
-      "name": "ESPN2 [US]"
+      "name": "ESPN2 [US]",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch49",
       "type": "tv",
-      "name": "ESPN 2 [BE]"
+      "name": "ESPN 2 [BE]",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch50",
       "type": "tv",
-      "name": "ESPN 4 [BE]"
+      "name": "ESPN 4 [BE]",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch51",
       "type": "tv",
-      "name": "ESPN [BE]"
+      "name": "ESPN [BE]",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch52",
       "type": "tv",
-      "name": "ESPN HD [US]"
+      "name": "ESPN HD [US]",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch53",
       "type": "tv",
-      "name": "PREMIER SPORTS 1"
+      "name": "PREMIER SPORTS 1",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch54",
       "type": "tv",
-      "name": "PREMIER SPORTS 2"
+      "name": "PREMIER SPORTS 2",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch55",
       "type": "tv",
-      "name": "SKY SPORTS FOOTBALL"
+      "name": "SKY SPORTS FOOTBALL",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch56",
       "type": "tv",
-      "name": "ZIGGO SPORT"
+      "name": "ZIGGO SPORT",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch57",
       "type": "tv",
-      "name": "ZIGGO SPORT 2"
+      "name": "ZIGGO SPORT 2",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch58",
       "type": "tv",
-      "name": "ZIGGO SPORT 6"
+      "name": "ZIGGO SPORT 6",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch59",
       "type": "tv",
-      "name": "HYPERMOTION FHD"
+      "name": "HYPERMOTION FHD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch60",
       "type": "tv",
-      "name": "HYPERMOTION SD"
+      "name": "HYPERMOTION SD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch61",
       "type": "tv",
-      "name": "DAZN LA LIGA 1"
+      "name": "DAZN LA LIGA 1",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch62",
       "type": "tv",
-      "name": "DAZN LA LIGA 1 FHD"
+      "name": "DAZN LA LIGA 1 FHD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch63",
       "type": "tv",
-      "name": "DAZN LA LIGA 2 FHD"
+      "name": "DAZN LA LIGA 2 FHD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch64",
       "type": "tv",
-      "name": "M+ LALIGA FHD"
+      "name": "M+ LALIGA FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch65",
       "type": "tv",
-      "name": "M+ LALIGA"
+      "name": "M+ LALIGA",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch66",
       "type": "tv",
-      "name": "M+ LALIGA 2 FHD"
+      "name": "M+ LALIGA 2 FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch67",
       "type": "tv",
-      "name": "M+ LALIGA 2"
+      "name": "M+ LALIGA 2",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch68",
       "type": "tv",
-      "name": "M+ LALIGA 3 FHD"
+      "name": "M+ LALIGA 3 FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch69",
       "type": "tv",
-      "name": "M+ LALIGA 3"
+      "name": "M+ LALIGA 3",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch70",
       "type": "tv",
-      "name": "M+ LALIGA 4"
+      "name": "M+ LALIGA 4",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch71",
       "type": "tv",
-      "name": "LIGA DE CAMPEONES FHD"
+      "name": "LIGA DE CAMPEONES FHD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch72",
       "type": "tv",
-      "name": "LIGA DE CAMPEONES"
+      "name": "LIGA DE CAMPEONES",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch73",
       "type": "tv",
-      "name": "LIGA DE CAMPEONES 2 FHD"
+      "name": "LIGA DE CAMPEONES 2 FHD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch74",
       "type": "tv",
-      "name": "LIGA DE CAMPEONES 2"
+      "name": "LIGA DE CAMPEONES 2",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch75",
       "type": "tv",
-      "name": "LIGA DE CAMPEONES 3 FHD"
+      "name": "LIGA DE CAMPEONES 3 FHD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch76",
       "type": "tv",
-      "name": "LIGA DE CAMPEONES 3"
+      "name": "LIGA DE CAMPEONES 3",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch77",
       "type": "tv",
-      "name": "LIGA DE CAMPEONES 4"
+      "name": "LIGA DE CAMPEONES 4",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch78",
       "type": "tv",
-      "name": "LIGA DE CAMPEONES 5 FHD"
+      "name": "LIGA DE CAMPEONES 5 FHD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch79",
       "type": "tv",
-      "name": "LIGA DE CAMPEONES 6 FHD"
+      "name": "LIGA DE CAMPEONES 6 FHD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch80",
       "type": "tv",
-      "name": "CANAL MOTOR"
+      "name": "CANAL MOTOR",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch81",
       "type": "tv",
-      "name": "MOTORS TV HD"
+      "name": "MOTORS TV HD",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch82",
       "type": "tv",
-      "name": "MOTORVISION"
+      "name": "MOTORVISION",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch83",
       "type": "tv",
-      "name": "RALLY TV FHD"
+      "name": "RALLY TV FHD",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch84",
       "type": "tv",
-      "name": "RETROVISION MOTOR"
+      "name": "RETROVISION MOTOR",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch85",
       "type": "tv",
-      "name": "CALLE 13 HD"
+      "name": "CALLE 13 HD",
+      "genre": [
+        "Generalista"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch86",
       "type": "tv",
-      "name": "CANAL COCINA FHD"
+      "name": "CANAL COCINA FHD",
+      "genre": [
+        "Deportes"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch87",
       "type": "tv",
-      "name": "CAZA Y PESCA FHD HD"
+      "name": "CAZA Y PESCA FHD HD",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch88",
       "type": "tv",
-      "name": "DARK HD"
+      "name": "DARK HD",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch89",
       "type": "tv",
-      "name": "MOVISTAR ACCION"
+      "name": "MOVISTAR ACCION",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch90",
       "type": "tv",
-      "name": "MOVISTAR ACCION HD"
+      "name": "MOVISTAR ACCION HD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch91",
       "type": "tv",
-      "name": "MOVISTAR CINE ESPAÑOL FHD"
+      "name": "MOVISTAR CINE ESPAÑOL FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch92",
       "type": "tv",
-      "name": "MOVISTAR COMEDIA HD"
+      "name": "MOVISTAR COMEDIA HD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch93",
       "type": "tv",
-      "name": "MOVISTAR DOCUMENTALES FHD"
+      "name": "MOVISTAR DOCUMENTALES FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch94",
       "type": "tv",
-      "name": "MOVISTAR ESTRENOS FHD"
+      "name": "MOVISTAR ESTRENOS FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch95",
       "type": "tv",
-      "name": "MOVISTAR HITS FHD"
+      "name": "MOVISTAR HITS FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch96",
       "type": "tv",
-      "name": "MOVISTAR ORIGINALES FHD"
+      "name": "MOVISTAR ORIGINALES FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch97",
       "type": "tv",
-      "name": "MOVISTAR PLUS FHD"
+      "name": "MOVISTAR PLUS FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch98",
       "type": "tv",
-      "name": "Nickelodeon HD"
+      "name": "Nickelodeon HD",
+      "genre": [
+        "Generalista"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch99",
       "type": "tv",
-      "name": "ONETORO FHD"
+      "name": "ONETORO FHD",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch100",
       "type": "tv",
-      "name": "TVG EUROPA HD"
+      "name": "TVG EUROPA HD",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch101",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES"
+      "name": "MOVISTAR DEPORTES",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch102",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 2 FHD"
+      "name": "MOVISTAR DEPORTES 2 FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch103",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 2"
+      "name": "MOVISTAR DEPORTES 2",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch104",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 2 HD"
+      "name": "MOVISTAR DEPORTES 2 HD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch105",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 3 HD"
+      "name": "MOVISTAR DEPORTES 3 HD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch106",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 4 FHD"
+      "name": "MOVISTAR DEPORTES 4 FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch107",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 4 HD"
+      "name": "MOVISTAR DEPORTES 4 HD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch108",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 5 FHD"
+      "name": "MOVISTAR DEPORTES 5 FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch109",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 5 HD"
+      "name": "MOVISTAR DEPORTES 5 HD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch110",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 6 FHD"
+      "name": "MOVISTAR DEPORTES 6 FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch111",
       "type": "tv",
-      "name": "MOVISTAR DEPORTES 6 HD"
+      "name": "MOVISTAR DEPORTES 6 HD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch112",
       "type": "tv",
-      "name": "MOVISTAR GOLF FHD"
+      "name": "MOVISTAR GOLF FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch113",
       "type": "tv",
-      "name": "MOVISTAR GOLF HD"
+      "name": "MOVISTAR GOLF HD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch114",
       "type": "tv",
-      "name": "MOVISTAR VAMOS FHD"
+      "name": "MOVISTAR VAMOS FHD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch115",
       "type": "tv",
-      "name": "MOVISTAR VAMOS"
+      "name": "MOVISTAR VAMOS",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch116",
       "type": "tv",
-      "name": "beIN SPORTS HD 2 (TR)"
+      "name": "beIN SPORTS HD 2 (TR)",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch117",
       "type": "tv",
-      "name": "beIN SPORTS HD 3 (TR)"
+      "name": "beIN SPORTS HD 3 (TR)",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch118",
       "type": "tv",
-      "name": "beIN SPORTS HD 4 (TR)"
+      "name": "beIN SPORTS HD 4 (TR)",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch119",
       "type": "tv",
-      "name": "beIN SPORTS HABER (TR)"
+      "name": "beIN SPORTS HABER (TR)",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch120",
       "type": "tv",
-      "name": "Canal de Tenis HD (ES)"
+      "name": "Canal de Tenis HD (ES)",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch121",
       "type": "tv",
-      "name": "CANAL+ Sport 2 (PL) HD"
+      "name": "CANAL+ Sport 2 (PL) HD",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch122",
       "type": "tv",
-      "name": "CANAL+ Sport 3 (PL)"
+      "name": "CANAL+ Sport 3 (PL)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch123",
       "type": "tv",
-      "name": "CANAL+ Sport 4 (PL)"
+      "name": "CANAL+ Sport 4 (PL)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch124",
       "type": "tv",
-      "name": "CANAL+ Sport (PL)"
+      "name": "CANAL+ Sport (PL)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch125",
       "type": "tv",
-      "name": "Eurosport360 HD 1 (DE)"
+      "name": "Eurosport360 HD 1 (DE)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch126",
       "type": "tv",
-      "name": "Eurosport360 HD 2 (DE)"
+      "name": "Eurosport360 HD 2 (DE)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch127",
       "type": "tv",
-      "name": "Eurosport360 HD 3 (DE)"
+      "name": "Eurosport360 HD 3 (DE)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch128",
       "type": "tv",
-      "name": "Eurosport360 HD 4 (DE)"
+      "name": "Eurosport360 HD 4 (DE)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch129",
       "type": "tv",
-      "name": "Eurosport360 HD 5 (DE)"
+      "name": "Eurosport360 HD 5 (DE)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch130",
       "type": "tv",
-      "name": "Eurosport360 HD 6  (DE)"
+      "name": "Eurosport360 HD 6  (DE)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch131",
       "type": "tv",
-      "name": "Eurosport360 HD 7  (DE)"
+      "name": "Eurosport360 HD 7  (DE)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch132",
       "type": "tv",
-      "name": "Eurosport360 HD 8  (DE)"
+      "name": "Eurosport360 HD 8  (DE)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch133",
       "type": "tv",
-      "name": "Eurosport 1 HD (DE)"
+      "name": "Eurosport 1 HD (DE)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch134",
       "type": "tv",
-      "name": "Eurosport 1 HD (RU)"
+      "name": "Eurosport 1 HD (RU)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch135",
       "type": "tv",
-      "name": "Eurosport (PL)"
+      "name": "Eurosport (PL)",
+      "genre": [
+        "EuroSport"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch136",
       "type": "tv",
-      "name": "Extreme Sports (PL)"
+      "name": "Extreme Sports (PL)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch137",
       "type": "tv",
-      "name": "Fast&Funbox HD (RU)"
+      "name": "Fast&Funbox HD (RU)",
+      "genre": [
+        "Combate"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch138",
       "type": "tv",
-      "name": "FightBox HD (RU)"
+      "name": "FightBox HD (RU)",
+      "genre": [
+        "Combate"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch139",
       "type": "tv",
-      "name": "FOX Sports 1 HD (US)"
+      "name": "FOX Sports 1 HD (US)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch140",
       "type": "tv",
-      "name": "FOX Sports 2 HD (US)"
+      "name": "FOX Sports 2 HD (US)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch141",
       "type": "tv",
-      "name": "M-1 Global (RU)"
+      "name": "M-1 Global (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch142",
       "type": "tv",
-      "name": "M. Deportes HD (ES)"
+      "name": "M. Deportes HD (ES)",
+      "genre": [
+        "Deportes"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch143",
       "type": "tv",
-      "name": "nSport+ (PL)"
+      "name": "nSport+ (PL)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch144",
       "type": "tv",
-      "name": "ORF SPORT+ HD (DE)"
+      "name": "ORF SPORT+ HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch145",
       "type": "tv",
-      "name": "Polsat Sport (PL)"
+      "name": "Polsat Sport (PL)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch146",
       "type": "tv",
-      "name": "Polsat Sport Extra (PL)"
+      "name": "Polsat Sport Extra (PL)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch147",
       "type": "tv",
-      "name": "Polsat Sport Fight (PL)"
+      "name": "Polsat Sport Fight (PL)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch148",
       "type": "tv",
-      "name": "Polsat Sport Premium 1 (PL)"
+      "name": "Polsat Sport Premium 1 (PL)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch149",
       "type": "tv",
-      "name": "Polsat Sport Premium 2 (PL)"
+      "name": "Polsat Sport Premium 2 (PL)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch150",
       "type": "tv",
-      "name": "Sky Sport 1 HD (DE)"
+      "name": "Sky Sport 1 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch151",
       "type": "tv",
-      "name": "Sky Sport 2 HD (DE)"
+      "name": "Sky Sport 2 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch152",
       "type": "tv",
-      "name": "Sky Sport News (DE)"
+      "name": "Sky Sport News (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch153",
       "type": "tv",
-      "name": "SkySP PL (UK)"
+      "name": "SkySP PL (UK)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch154",
       "type": "tv",
-      "name": "SPORT1 (DE)"
+      "name": "SPORT1 (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch155",
       "type": "tv",
-      "name": "SPORT1+ (DE)"
+      "name": "SPORT1+ (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch156",
       "type": "tv",
-      "name": "Sport Digital (DE)"
+      "name": "Sport Digital (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch157",
       "type": "tv",
-      "name": "Sport Klub (PL)"
+      "name": "Sport Klub (PL)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch158",
       "type": "tv",
-      "name": "SuperTennis HD (ES)"
+      "name": "SuperTennis HD (ES)",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch159",
       "type": "tv",
-      "name": "TVP Sport HD (PL)"
+      "name": "TVP Sport HD (PL)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch160",
       "type": "tv",
-      "name": "UFC HD (RU)"
+      "name": "UFC HD (RU)",
+      "genre": [
+        "Combate"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch161",
       "type": "tv",
-      "name": "Ziggo Sport (ES)"
+      "name": "Ziggo Sport (ES)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch162",
       "type": "tv",
-      "name": "Comedy Central HD"
+      "name": "Comedy Central HD",
+      "genre": [
+        "Generalista"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch163",
       "type": "tv",
-      "name": "CUATRO FHD"
+      "name": "CUATRO FHD",
+      "genre": [
+        "Generalista"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch164",
       "type": "tv",
-      "name": "Disney Channel"
+      "name": "Disney Channel",
+      "genre": [
+        "Generalista"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch165",
       "type": "tv",
-      "name": "LA 1 FHD"
+      "name": "LA 1 FHD",
+      "genre": [
+        "Generalista"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch166",
       "type": "tv",
-      "name": "LA 2 FHD"
+      "name": "LA 2 FHD",
+      "genre": [
+        "Generalista"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch167",
       "type": "tv",
-      "name": "TENNIS CHANNEL"
+      "name": "TENNIS CHANNEL",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch168",
       "type": "tv",
-      "name": "TENNIS CHANNEL HD"
+      "name": "TENNIS CHANNEL HD",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch169",
       "type": "tv",
-      "name": "Auto Motor und Sport Channel"
+      "name": "Auto Motor und Sport Channel",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch170",
       "type": "tv",
-      "name": "beIN Movies Turk"
+      "name": "beIN Movies Turk",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch171",
       "type": "tv",
-      "name": "BeinSport"
+      "name": "BeinSport",
+      "genre": [
+        "beIN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch172",
       "type": "tv",
-      "name": "Canal+ action"
+      "name": "Canal+ action",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch173",
       "type": "tv",
-      "name": "CANAL+ SPORT"
+      "name": "CANAL+ SPORT",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch174",
       "type": "tv",
-      "name": "Canal+ Sport 3 PL"
+      "name": "Canal+ Sport 3 PL",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch175",
       "type": "tv",
-      "name": "DAZN MOTOGP"
+      "name": "DAZN MOTOGP",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch176",
       "type": "tv",
-      "name": "DAZN MOTOGP FHD"
+      "name": "DAZN MOTOGP FHD",
+      "genre": [
+        "DAZN"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch177",
       "type": "tv",
-      "name": "Disney Junior FHDp *"
+      "name": "Disney Junior FHDp *",
+      "genre": [
+        "Generalista"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch178",
       "type": "tv",
-      "name": "Film+ HD"
+      "name": "Film+ HD",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch179",
       "type": "tv",
-      "name": "Gol TV FHDp *"
+      "name": "Gol TV FHDp *",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch180",
       "type": "tv",
-      "name": "Gol TV FHDp **"
+      "name": "Gol TV FHDp **",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch181",
       "type": "tv",
-      "name": "M+ CINE ESPAnOL HD Spain"
+      "name": "M+ CINE ESPAnOL HD Spain",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch182",
       "type": "tv",
-      "name": "M+ Documentales HD Spain"
+      "name": "M+ Documentales HD Spain",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch183",
       "type": "tv",
-      "name": "M+ DRAMA HD Spain"
+      "name": "M+ DRAMA HD Spain",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch184",
       "type": "tv",
-      "name": "M+ Hits HD Spain"
+      "name": "M+ Hits HD Spain",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch185",
       "type": "tv",
-      "name": "M+ Indie HD Spain"
+      "name": "M+ Indie HD Spain",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch186",
       "type": "tv",
-      "name": "M+ Originales HD Spain"
+      "name": "M+ Originales HD Spain",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch187",
       "type": "tv",
-      "name": "M+ Romance HD Spain"
+      "name": "M+ Romance HD Spain",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch188",
       "type": "tv",
-      "name": "M+ Terror HD Spain"
+      "name": "M+ Terror HD Spain",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch189",
       "type": "tv",
-      "name": "M+ Wéstern HD Spain"
+      "name": "M+ Wéstern HD Spain",
+      "genre": [
+        "Movistar+"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch190",
       "type": "tv",
-      "name": "Magenta Sport 1 HD (DE)"
+      "name": "Magenta Sport 1 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch191",
       "type": "tv",
-      "name": "Magenta Sport 2 HD (DE)"
+      "name": "Magenta Sport 2 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch192",
       "type": "tv",
-      "name": "Magenta Sport 3 HD (DE)"
+      "name": "Magenta Sport 3 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch193",
       "type": "tv",
-      "name": "Magenta Sport 4 HD (DE)"
+      "name": "Magenta Sport 4 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch194",
       "type": "tv",
-      "name": "Magenta Sport 5 HD (DE)"
+      "name": "Magenta Sport 5 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch195",
       "type": "tv",
-      "name": "Magenta Sport 6 HD (DE)"
+      "name": "Magenta Sport 6 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch196",
       "type": "tv",
-      "name": "Magenta Sport 7 HD (DE)"
+      "name": "Magenta Sport 7 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch197",
       "type": "tv",
-      "name": "Magenta Sport 8 HD (DE)"
+      "name": "Magenta Sport 8 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch198",
       "type": "tv",
-      "name": "Magenta Sport 9 HD (DE)"
+      "name": "Magenta Sport 9 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch199",
       "type": "tv",
-      "name": "Magenta Sport 10 HD (DE)"
+      "name": "Magenta Sport 10 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch200",
       "type": "tv",
-      "name": "Magenta Sport 11 HD (DE)"
+      "name": "Magenta Sport 11 HD (DE)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch201",
       "type": "tv",
-      "name": "NBA League Pass FHDp *"
+      "name": "NBA League Pass FHDp *",
+      "genre": [
+        "Baloncesto"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch202",
       "type": "tv",
-      "name": "NBA League Pass FHDp **"
+      "name": "NBA League Pass FHDp **",
+      "genre": [
+        "Baloncesto"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch203",
       "type": "tv",
-      "name": "noa4 Hamburg FHD"
+      "name": "noa4 Hamburg FHD",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch204",
       "type": "tv",
-      "name": "Orange TV"
+      "name": "Orange TV",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch205",
       "type": "tv",
-      "name": "Pluto TV Auto Motor Sport (720p)"
+      "name": "Pluto TV Auto Motor Sport (720p)",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch206",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 1 (DE)"
+      "name": "RTL+ SPORT EVENT 1 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch207",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 2 (DE)"
+      "name": "RTL+ SPORT EVENT 2 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch208",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 3 (DE)"
+      "name": "RTL+ SPORT EVENT 3 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch209",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 4 (DE)"
+      "name": "RTL+ SPORT EVENT 4 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch210",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 5 (DE)"
+      "name": "RTL+ SPORT EVENT 5 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch211",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 6 (DE)"
+      "name": "RTL+ SPORT EVENT 6 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch212",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 7 (DE)"
+      "name": "RTL+ SPORT EVENT 7 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch213",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 8 (DE)"
+      "name": "RTL+ SPORT EVENT 8 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch214",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 9 (DE)"
+      "name": "RTL+ SPORT EVENT 9 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch215",
       "type": "tv",
-      "name": "RTL+ SPORT EVENT 10 (DE)"
+      "name": "RTL+ SPORT EVENT 10 (DE)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch216",
       "type": "tv",
-      "name": "Setanta Live 1 (RU)"
+      "name": "Setanta Live 1 (RU)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch217",
       "type": "tv",
-      "name": "Setanta Live 2 (RU)"
+      "name": "Setanta Live 2 (RU)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch218",
       "type": "tv",
-      "name": "Sky Sports LaLiga HD"
+      "name": "Sky Sports LaLiga HD",
+      "genre": [
+        "Fútbol"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch219",
       "type": "tv",
-      "name": "SuperTennis HD"
+      "name": "SuperTennis HD",
+      "genre": [
+        "Motor"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch220",
       "type": "tv",
-      "name": "VIASAT SPORT HD (RU)"
+      "name": "VIASAT SPORT HD (RU)",
+      "genre": [
+        "Internacional"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch221",
       "type": "tv",
-      "name": "Бокс ТВ (RU)"
+      "name": "Бокс ТВ (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch222",
       "type": "tv",
-      "name": "Конный мир HD (RU)"
+      "name": "Конный мир HD (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch223",
       "type": "tv",
-      "name": "КХЛ HD (RU)"
+      "name": "КХЛ HD (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch224",
       "type": "tv",
-      "name": "КХЛ ТВ (RU)"
+      "name": "КХЛ ТВ (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch225",
       "type": "tv",
-      "name": "Матч! Боец (RU)"
+      "name": "Матч! Боец (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch226",
       "type": "tv",
-      "name": "Матч! Игра HD (RU)"
+      "name": "Матч! Игра HD (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch227",
       "type": "tv",
-      "name": "МАТЧ! Планета (RU)"
+      "name": "МАТЧ! Планета (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch228",
       "type": "tv",
-      "name": "Матч! Премьер HD (RU)"
+      "name": "Матч! Премьер HD (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch229",
       "type": "tv",
-      "name": "Матч! Страна (RU)"
+      "name": "Матч! Страна (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch230",
       "type": "tv",
-      "name": "Матч! ТВ HD (RU)"
+      "name": "Матч! ТВ HD (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch231",
       "type": "tv",
-      "name": "Матч! Футбол 1 ( original ) (RU)"
+      "name": "Матч! Футбол 1 ( original ) (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch232",
       "type": "tv",
-      "name": "Матч! Футбол 2 ( original ) (RU)"
+      "name": "Матч! Футбол 2 ( original ) (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch233",
       "type": "tv",
-      "name": "Матч! Футбол 3 ( original ) (RU)"
+      "name": "Матч! Футбол 3 ( original ) (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch234",
       "type": "tv",
-      "name": "Мир Баскетбола (RU)"
+      "name": "Мир Баскетбола (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch235",
       "type": "tv",
-      "name": "Русский Экстрим (RU)"
+      "name": "Русский Экстрим (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch236",
       "type": "tv",
-      "name": "Спортивный (RU)"
+      "name": "Спортивный (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch237",
       "type": "tv",
-      "name": "Старт (RU)"
+      "name": "Старт (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch238",
       "type": "tv",
-      "name": "Точка отрыва (RU)"
+      "name": "Точка отрыва (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch239",
       "type": "tv",
-      "name": "Футбол HD (RU)"
+      "name": "Футбол HD (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch240",
       "type": "tv",
-      "name": "Футбольный HD (RU)"
+      "name": "Футбольный HD (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     },
     {
       "id": "ttv_ch241",
       "type": "tv",
-      "name": "Хоккейный HD (RU)"
+      "name": "Хоккейный HD (RU)",
+      "genre": [
+        "Otros"
+      ],
+      "poster": "https://i.imgur.com/AcestreamIcon.png",
+      "posterShape": "square"
     }
   ]
 }
